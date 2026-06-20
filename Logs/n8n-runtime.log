@@ -1,0 +1,118 @@
+[17/06/2026 21:17:44,09] Iniciando n8n local (porta 5678)...
+Acesse: http://localhost:5678
+Login: aura / AuraDecoreN8n2026!
+
+Initializing n8n process
+n8n's port 5678 is already in use. Do you have another instance of n8n running already?
+[18/06/2026  9:25:58,43] Iniciando n8n local (porta 5678)...
+Acesse: http://localhost:5678
+Login: aura / AuraDecoreN8n2026!
+
+Initializing n8n process
+n8n ready on ::, port 5678
+n8n Task Broker ready on 127.0.0.1, port 5679
+Failed to start Python task runner in internal mode. because its virtual environment is missing from this system. Launching a Python runner in internal mode is intended only for debugging and is not recommended for production. Users are encouraged to deploy in external mode. See: https://docs.n8n.io/hosting/configuration/task-runners/#setting-up-external-mode
+[license SDK] Skipping renewal on init: license cert is not initialized
+Registered runner "JS Task Runner" (hQNHwooxM3UJ3PEB-k7Ls) 
+^C[18/06/2026 14:08:00,50] Iniciando n8n local (porta 5678)...
+Acesse: http://localhost:5678
+Login: aura / AuraDecoreN8n2026!
+
+Initializing n8n process
+n8n ready on ::, port 5678
+n8n Task Broker ready on 127.0.0.1, port 5679
+Failed to start Python task runner in internal mode. because its virtual environment is missing from this system. Launching a Python runner in internal mode is intended only for debugging and is not recommended for production. Users are encouraged to deploy in external mode. See: https://docs.n8n.io/hosting/configuration/task-runners/#setting-up-external-mode
+[license SDK] Skipping renewal on init: license cert is not initialized
+Registered runner "JS Task Runner" (ix-UBzXjqICwI2QgtClr3) 
+Instance registered
+Discovered 4 cluster checks
+Version: 2.20.9
+Building workflow dependency index...
+Expected ':' after property name in JSON at position 906 (line 1 column 907)
+SyntaxError: Expected ':' after property name in JSON at position 906 (line 1 column 907)
+    at JSON.parse (<anonymous>)
+    at DateUtils.stringToSimpleJson (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\util\DateUtils.ts:239:49)
+    at SqliteReadWriteDriver.prepareHydratedValue (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\driver\sqlite-abstract\AbstractSqliteDriver.ts:416:31)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:248:29
+    at Array.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transformColumns (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:213:26)
+    at RawSqlResultsToEntityTransformer.transformRawResultsGroup (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:161:33)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:50:33
+    at Map.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transform (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:49:15)
+
+Start Active Workflows:
+Activated workflow "GUARD - Alerta Estoque Baixo" (ID: guard-estoque-baixo-001)
+Activated workflow "GUARD - Relatório Diário de Vendas" (ID: guard-relatorio-diario-002)
+Activated workflow "LENA - Novos Pedidos → Sheets + Follow-up D+7" (ID: lena-pedidos-followup-003)
+Activated workflow "Aura Decore · 01 · Novo pedido Shopify → IVE + vault" (ID: 1)
+Activated workflow "Aura Decore · 02 · Recuperação carrinho abandonado D+1/D+3/D+7" (ID: 2)
+SyntaxError: Expected ':' after property name in JSON at position 906 (line 1 column 907)
+    at JSON.parse (<anonymous>)
+    at DateUtils.stringToSimpleJson (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\util\DateUtils.ts:239:49)
+    at SqliteReadWriteDriver.prepareHydratedValue (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\driver\sqlite-abstract\AbstractSqliteDriver.ts:416:31)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:248:29
+    at Array.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transformColumns (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:213:26)
+    at RawSqlResultsToEntityTransformer.transformRawResultsGroup (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:161:33)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:50:33
+    at Map.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transform (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:49:15)
+Exiting due to an error.
+Error: Exiting due to an error.
+    at Start.exitWithCrash (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\src\commands\base-command.ts:231:28)
+    at Start.catch (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\src\commands\start.ts:433:14)
+    at CommandRegistry.execute (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\src\command-registry.ts:86:25)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\bin\n8n:63:2
+
+Expected ':' after property name in JSON at position 906 (line 1 column 907)
+SyntaxError: Expected ':' after property name in JSON at position 906 (line 1 column 907)
+    at JSON.parse (<anonymous>)
+    at DateUtils.stringToSimpleJson (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\util\DateUtils.ts:239:49)
+    at SqliteReadWriteDriver.prepareHydratedValue (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\driver\sqlite-abstract\AbstractSqliteDriver.ts:416:31)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:248:29
+    at Array.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transformColumns (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:213:26)
+    at RawSqlResultsToEntityTransformer.transformRawResultsGroup (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:161:33)
+    at C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:50:33
+    at Map.forEach (<anonymous>)
+    at RawSqlResultsToEntityTransformer.transform (C:\Users\erick\AppData\Roaming\npm\node_modules\n8n\node_modules\src\query-builder\transformer\RawSqlResultsToEntityTransformer.ts:49:15)
+
+[19/06/2026  5:58:35,25] Iniciando n8n local (porta 5678)...
+Acesse: http://localhost:5678
+Login: aura / AuraDecoreN8n2026!
+
+Initializing n8n process
+n8n ready on ::, port 5678
+n8n Task Broker ready on 127.0.0.1, port 5679
+Failed to start Python task runner in internal mode. because its virtual environment is missing from this system. Launching a Python runner in internal mode is intended only for debugging and is not recommended for production. Users are encouraged to deploy in external mode. See: https://docs.n8n.io/hosting/configuration/task-runners/#setting-up-external-mode
+[license SDK] Skipping renewal on init: license cert is not initialized
+Registered runner "JS Task Runner" (TSJBJrN2E9t8DzQ7i1LJ1) 
+Instance registered
+Discovered 4 cluster checks
+Version: 2.20.9
+Building workflow dependency index...
+Start Active Workflows:
+Activated workflow "GUARD - Alerta Estoque Baixo" (ID: guard-estoque-baixo-001)
+Activated workflow "GUARD - Relatório Diário de Vendas" (ID: guard-relatorio-diario-002)
+Workflow 3 has activeVersionId but no activeVersion nodes. Skipping published index.
+Workflow 24 has activeVersionId but no activeVersion nodes. Skipping published index.
+Workflow 25 has activeVersionId but no activeVersion nodes. Skipping published index.
+Workflow 26 has activeVersionId but no activeVersion nodes. Skipping published index.
+Finished building workflow dependency index. Processed 3 draft workflows, 4 published workflows.
+Activated workflow "LENA - Novos Pedidos → Sheets + Follow-up D+7" (ID: lena-pedidos-followup-003)
+Activated workflow "Aura Decore · 01 · Novo pedido Shopify → IVE + vault" (ID: 1)
+Activated workflow "Aura Decore · 02 · Recuperação carrinho abandonado D+1/D+3/D+7" (ID: 2)
+Activated workflow "Aura Decore · 04 · Mineração semanal NEXUS → KAI → IVE" (ID: 4)
+Activated workflow "Aura Decore · 05 · Auditoria semanal ECHO (domingo 20h)" (ID: 5)
+Activated workflow "Aura Decore · 06 · Comando Direto — Eduardo → Agentes" (ID: 6)
+Activated workflow "Aura Decore · 07 · Scheduler Crews — Automação Semanal" (ID: 7)
+Activated workflow "Aura Decore · Post Diário Redes Sociais" (ID: 8)
+Activated workflow "Aura Decore · Design Semanal (LUNA + ARTE)" (ID: 9)
+Activated workflow "Aura Decore · Enriquecimento de Produto (VERA + ARTE + THEO)" (ID: 10)
+Activated workflow "11 — Shopify Dev Pipeline" (ID: 11)
+Activated workflow "12 · Canva+Figma → Shopify Sync" (ID: 12)
+
+Editor is now accessible via:
+http://localhost:5678
+^C

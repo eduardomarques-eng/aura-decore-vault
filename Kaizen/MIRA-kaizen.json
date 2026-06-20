@@ -1,0 +1,31 @@
+{
+  "agent_id": "mira",
+  "nome": "MIRA",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Cauda longa: 'vaso japandi cerâmica brasil' converte mais que 'vaso decorativo'",
+    "Pinterest SEO: 500 chars de descrição com 5 keywords naturais",
+    "Meta title ideal: Keyword Principal | Aura Decore | 60 chars max"
+  ],
+  "o_que_funcionou": [
+    "Cauda longa: 'vaso japandi cerâmica brasil' converte mais que 'vaso decorativo'",
+    "Pinterest SEO: 500 chars de descrição com 5 keywords naturais",
+    "Meta title ideal: Keyword Principal | Aura Decore | 60 chars max"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.310666"
+}

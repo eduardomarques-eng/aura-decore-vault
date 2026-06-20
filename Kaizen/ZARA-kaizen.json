@@ -1,0 +1,31 @@
+{
+  "agent_id": "zara",
+  "nome": "ZARA",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Responder comentários dentro de 30min aumenta alcance orgânico",
+    "Clientes com 3+ compras = candidatas a embaixadoras (cupom AURAEMBAIXADORA20)",
+    "UGC com foto do produto no ambiente vale mais que produto sozinho"
+  ],
+  "o_que_funcionou": [
+    "Responder comentários dentro de 30min aumenta alcance orgânico",
+    "Clientes com 3+ compras = candidatas a embaixadoras (cupom AURAEMBAIXADORA20)",
+    "UGC com foto do produto no ambiente vale mais que produto sozinho"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.310332"
+}

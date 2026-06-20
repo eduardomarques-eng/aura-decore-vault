@@ -1,0 +1,31 @@
+{
+  "agent_id": "fina",
+  "nome": "FINA",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Nubank PJ aguarda CNPJ ME — operar com MEI AppMax/Yampi enquanto isso",
+    "Pagamentos só após aprovação explícita de Eduardo",
+    "Relatório mensal para GUARD todo dia 1 do mês"
+  ],
+  "o_que_funcionou": [
+    "Nubank PJ aguarda CNPJ ME — operar com MEI AppMax/Yampi enquanto isso",
+    "Pagamentos só após aprovação explícita de Eduardo",
+    "Relatório mensal para GUARD todo dia 1 do mês"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.341009"
+}

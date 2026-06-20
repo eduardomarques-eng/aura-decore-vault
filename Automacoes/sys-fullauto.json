@@ -1,0 +1,24 @@
+{
+  "fullauto": true,
+  "activated": "2026-06-19 18:10",
+  "schedules": {
+    "08h00": "ECHO health check + THEO loja",
+    "09h00": "MIA publicação diária",
+    "11h00": "Post principal feed",
+    "19h00": "Stories do dia",
+    "21h00": "Reels (quando disponível)",
+    "20h Dom": "Kaizen evolve completo",
+    "10h Qua": "KAI curadoria semanal",
+    "08h Sex": "GUARD relatório semanal"
+  },
+  "agents": {
+    "echo": "auditoria diária 08h",
+    "theo": "check loja 09h",
+    "mia": "publicação automática",
+    "guard": "alertas financeiros",
+    "lena": "follow-up automático",
+    "kai": "curadoria semanal",
+    "rex": "otimização campanhas",
+    "pipe": "workflows n8n 24/7"
+  }
+}

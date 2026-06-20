@@ -1,0 +1,11 @@
+{
+  "rex_auto": true,
+  "protocols": [
+    "Pausar adsets com CTR < 0.5% após 3 dias",
+    "Escalar budget 20% em adsets ROAS > 3x",
+    "Testar 3 novos criativos por semana (VEGA + LUNA)",
+    "Audiências: lookalike 1% + retargeting 7 dias",
+    "Horário peak: 11h–13h e 20h–22h BRT"
+  ],
+  "updated": "2026-06-19 18:10"
+}

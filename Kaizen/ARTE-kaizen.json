@@ -1,0 +1,31 @@
+{
+  "agent_id": "arte",
+  "nome": "ARTE",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Prompt base: 'editorial photography, japandi interior, natural light, wabi-sabi, 8k, minimal'",
+    "Fundo linho > fundo branco em fotos de produto (+18% save rate)",
+    "3 criativos/dia: 1 produto puro, 1 lifestyle ambiente, 1 detalhe textura"
+  ],
+  "o_que_funcionou": [
+    "Prompt base: 'editorial photography, japandi interior, natural light, wabi-sabi, 8k, minimal'",
+    "Fundo linho > fundo branco em fotos de produto (+18% save rate)",
+    "3 criativos/dia: 1 produto puro, 1 lifestyle ambiente, 1 detalhe textura"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.323801"
+}

@@ -1,0 +1,21 @@
+﻿[
+    "dataview",
+    "templater-obsidian",
+    "obsidian-tasks-plugin",
+    "obsidian-git",
+    "quickadd",
+    "calendar",
+    "homepage",
+    "periodic-notes",
+    "metadata-menu",
+    "obsidian-kanban",
+    "buttons",
+    "obsidian-style-settings",
+    "obsidian-icon-folder",
+    "obsidian-excalidraw-plugin",
+    "dbfolder",
+    "omnisearch",
+    "obsidian-linter",
+    "obsidian-advanced-uri",
+    "obsidian-local-rest-api"
+]

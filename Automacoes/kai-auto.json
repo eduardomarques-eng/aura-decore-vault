@@ -1,0 +1,12 @@
+{
+  "kai_auto": true,
+  "schedule": "quarta 10h00",
+  "tasks": [
+    "Verificar estoque crítico (< 5 unidades)",
+    "Auditar produtos sem foto profissional",
+    "Comparar preços com concorrentes",
+    "Identificar produtos para descontinuar (< 2 vendas/mês)",
+    "Propor 5 novos produtos alinhados com DNA"
+  ],
+  "updated": "2026-06-19 18:10"
+}

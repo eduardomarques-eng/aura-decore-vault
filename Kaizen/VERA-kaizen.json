@@ -1,0 +1,33 @@
+{
+  "agent_id": "vera",
+  "nome": "VERA",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Palavras que convertem: 'tranquilidade', 'lar dos sonhos', 'equilíbrio', 'minimalista'",
+    "Evitar: 'oferta', 'desconto', 'promoção' (diminuem percepção de valor)",
+    "Headlines com pergunta convertem 23% mais que afirmações",
+    "Copy para Instagram: máximo 150 chars antes do 'mais'"
+  ],
+  "o_que_funcionou": [
+    "Palavras que convertem: 'tranquilidade', 'lar dos sonhos', 'equilíbrio', 'minimalista'",
+    "Evitar: 'oferta', 'desconto', 'promoção' (diminuem percepção de valor)",
+    "Headlines com pergunta convertem 23% mais que afirmações",
+    "Copy para Instagram: máximo 150 chars antes do 'mais'"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.274631"
+}

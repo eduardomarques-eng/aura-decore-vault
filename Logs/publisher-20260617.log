@@ -1,0 +1,22 @@
+[17/06/2026 19:08:31,79] Iniciando publisher... 
+[2026-06-17T22:08:33.066Z] Publisher iniciado
+Janela: 2026-06-17T20:38:33.066Z → 2026-06-17T22:13:33.066Z
+Posts a publicar: 0
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 48
+  PUBLISHED: 8
+
+Esta execução: 0 publicados, 0 erros
+[17/06/2026 19:08:34,44] Publisher finalizado. 
+[17/06/2026 21:05:01,56] Iniciando publisher... 
+[2026-06-18T00:05:03.213Z] Publisher iniciado
+Janela: 2026-06-17T22:35:03.213Z → 2026-06-18T00:10:03.213Z
+Posts a publicar: 0
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 48
+  PUBLISHED: 8
+
+Esta execução: 0 publicados, 0 erros
+[17/06/2026 21:05:04,24] Publisher finalizado. 

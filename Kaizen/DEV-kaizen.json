@@ -1,0 +1,33 @@
+{
+  "agent_id": "dev",
+  "nome": "DEV",
+  "semana": "2026-W25",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 1,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Tema live: 160266387561 — SEMPRE backup antes de mexer",
+    "CRO priority: urgency timer > exit popup > cart upsell",
+    "CSS: var(--font-body-scale) para escala de texto (body_scale=110 atual)"
+  ],
+  "o_que_funcionou": [
+    "Tema live: 160266387561 — SEMPRE backup antes de mexer",
+    "CRO priority: urgency timer > exit popup > cart upsell",
+    "CSS: var(--font-body-scale) para escala de texto (body_scale=110 atual)",
+    "Manutenção diária 2026-06-20 — score 7.5/10"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-19T18:07:47.511915",
+  "ultima_manutencao": "2026-06-20 08:01"
+}

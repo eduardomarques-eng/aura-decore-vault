@@ -1,0 +1,14 @@
+{
+  "mia_auto": true,
+  "channels": [
+    "instagram",
+    "fb_comercial",
+    "fb_pessoal"
+  ],
+  "schedule": {
+    "11h": "post_feed",
+    "19h": "stories",
+    "21h": "reels"
+  },
+  "updated": "2026-06-19 18:10"
+}

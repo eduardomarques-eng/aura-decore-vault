@@ -1,0 +1,31 @@
+{
+  "agent_id": "guard",
+  "nome": "GUARD",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Alertas 🟡 devem ser emitidos antes de virar 🔴",
+    "DAS MEI dia 20 — notificar Eduardo no dia 15",
+    "Produtos com margem < 40% precisam de justificativa estratégica"
+  ],
+  "o_que_funcionou": [
+    "Alertas 🟡 devem ser emitidos antes de virar 🔴",
+    "DAS MEI dia 20 — notificar Eduardo no dia 15",
+    "Produtos com margem < 40% precisam de justificativa estratégica"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.208815"
+}

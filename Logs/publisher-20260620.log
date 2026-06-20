@@ -1,0 +1,46 @@
+[20/06/2026  9:05:02,86] Iniciando publisher... 
+[2026-06-20T12:05:05.271Z] Publisher iniciado
+Janela: 2026-06-20T10:35:05.271Z → 2026-06-20T12:10:05.271Z
+Posts a publicar: 2
+
+[IG] 20/06/2026, 09:00:00 — O Incensário Ripple não é apenas um objeto. É um r...
+  ❌ Erro: container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 20/06/2026, 09:00:00 — O Incensário Ripple não é apenas um objeto. É um r...
+  ✅ Post publicado — ID: 1111100822090245_122108184987338235
+usage: fb_pessoal_chrome_post.py [-h] [--caption CAPTION]
+                                 [--image-url IMAGE_URL]
+                                 [--image-path IMAGE_PATH]
+                                 [--post-date POST_DATE] [--dry-run]
+                                 [--no-publish]
+fb_pessoal_chrome_post.py: error: unrecognized arguments: --url https://cdn.shopify.com/s/files/1/0685/7064/4585/files/0001-5676166915954052063_aec8f558-aa01-404a-af28-fe5ffeca3c99.png
+  ⚠️  FB Pessoal: FB_PESSOAL_PAGE_ID não configurado. Defina a variável de ambiente.
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 30
+  PUBLISHED: 18
+  ERROR: 8
+
+Esta execução: 1 publicados, 1 erros
+[20/06/2026  9:05:10,53] Publisher finalizado. 
+[20/06/2026 12:05:06,84] Iniciando publisher... 
+[2026-06-20T15:05:28.830Z] Publisher iniciado
+Janela: 2026-06-20T13:35:28.830Z → 2026-06-20T15:10:28.830Z
+Posts a publicar: 2
+
+[FB] 20/06/2026, 12:00:00 — 5 minutos. Incenso. Silêncio. 🙏 Você tem esse rit...
+  📸 Publicando como FB Story...
+  ⚠️ FB photo_stories falhou ({"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"), postando no feed...
+  ✅ Story publicado — ID: 1111100822090245_122108212797338235
+
+[IG] 20/06/2026, 12:00:00 — 5 minutos. Incenso. Silêncio. 🙏 Você tem esse rit...
+  📸 Publicando como IG Story...
+  ❌ Erro: story_container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 28
+  PUBLISHED: 19
+  ERROR: 9
+
+Esta execução: 1 publicados, 1 erros
+[20/06/2026 12:05:36,44] Publisher finalizado. 

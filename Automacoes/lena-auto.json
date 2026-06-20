@@ -1,0 +1,10 @@
+{
+  "lena_auto": true,
+  "triggers": {
+    "Carrinho abandonado 2h": "Mensagem recuperação amigável",
+    "Pós-compra D+1": "Email 'obrigada + dica de uso'",
+    "Entrega confirmada D+3": "Pedido de review + 5 estrelas",
+    "Inativo 30 dias": "Campanha reengajamento"
+  },
+  "updated": "2026-06-19 18:10"
+}

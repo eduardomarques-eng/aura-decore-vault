@@ -1,0 +1,102 @@
+[18/06/2026  9:05:02,53] Iniciando publisher... 
+[2026-06-18T12:05:04.290Z] Publisher iniciado
+Janela: 2026-06-18T10:35:04.290Z → 2026-06-18T12:10:04.290Z
+Posts a publicar: 2
+
+[IG] 18/06/2026, 09:00:00 — Natura que decora. Natureza que acalma. 🌿 O Eucal...
+  ✅ Post publicado — ID: 18069980390378262
+
+[FB] 18/06/2026, 09:00:00 — Natura que decora. Natureza que acalma. 🌿 O Eucal...
+  ✅ Post publicado — ID: 1111100822090245_122107861911338235
+usage: fb_pessoal_chrome_post.py [-h] [--caption CAPTION]
+                                 [--image-url IMAGE_URL]
+                                 [--image-path IMAGE_PATH]
+                                 [--post-date POST_DATE] [--dry-run]
+                                 [--no-publish]
+fb_pessoal_chrome_post.py: error: unrecognized arguments: --url https://cdn.shopify.com/s/files/1/0685/7064/4585/files/0001-6048839783845039403_a649d883-76d4-49e4-9114-c313299fddbc.png
+  ⚠️  FB Pessoal: FB_PESSOAL_PAGE_ID não configurado. Defina a variável de ambiente.
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 46
+  PUBLISHED: 10
+
+Esta execução: 2 publicados, 0 erros
+[18/06/2026  9:05:30,02] Publisher finalizado. 
+[18/06/2026  9:32:55,91] Iniciando publisher... 
+[2026-06-18T12:33:00.916Z] Publisher iniciado
+Janela: 2026-06-18T11:03:00.916Z → 2026-06-18T12:38:00.916Z
+Posts a publicar: 0
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 46
+  PUBLISHED: 10
+
+Esta execução: 0 publicados, 0 erros
+[18/06/2026  9:33:02,18] Publisher finalizado. 
+[18/06/2026 12:05:02,55] Iniciando publisher... 
+[2026-06-18T15:05:04.995Z] Publisher iniciado
+Janela: 2026-06-18T13:35:04.995Z → 2026-06-18T15:10:04.995Z
+Posts a publicar: 2
+
+[IG] 18/06/2026, 12:00:00 — Cheiro de eucalipto + silêncio Isso que é lar 🌿 →...
+  📸 Publicando como IG Story...
+  ❌ Erro: story_container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 18/06/2026, 12:00:00 — Cheiro de eucalipto + silêncio Isso que é lar 🌿 →...
+  📸 Publicando como FB Story...
+  ⚠️ FB photo_stories falhou ({"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"), postando no feed...
+  ✅ Story publicado — ID: 1111100822090245_122107886073338235
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 44
+  PUBLISHED: 11
+  ERROR: 1
+
+Esta execução: 1 publicados, 1 erros
+[18/06/2026 12:05:10,26] Publisher finalizado. 
+[18/06/2026 19:05:02,99] Iniciando publisher... 
+[2026-06-18T22:05:05.522Z] Publisher iniciado
+Janela: 2026-06-18T20:35:05.522Z → 2026-06-18T22:10:05.522Z
+Posts a publicar: 2
+
+[IG] 18/06/2026, 18:00:00 — Decorar não é sobre gastar muito. É sobre escolher...
+  ❌ Erro: container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 18/06/2026, 18:00:00 — Decorar não é sobre gastar muito. É sobre escolher...
+  ✅ Post publicado — ID: 1111100822090245_122107926909338235
+usage: fb_pessoal_chrome_post.py [-h] [--caption CAPTION]
+                                 [--image-url IMAGE_URL]
+                                 [--image-path IMAGE_PATH]
+                                 [--post-date POST_DATE] [--dry-run]
+                                 [--no-publish]
+fb_pessoal_chrome_post.py: error: unrecognized arguments: --url https://cdn.shopify.com/s/files/1/0685/7064/4585/files/0001-5727958312850494609_dafae35e-eca2-4d13-b863-54946738b6d5.png
+  ⚠️  FB Pessoal: FB_PESSOAL_PAGE_ID não configurado. Defina a variável de ambiente.
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 42
+  PUBLISHED: 12
+  ERROR: 2
+
+Esta execução: 1 publicados, 1 erros
+[18/06/2026 19:05:23,29] Publisher finalizado. 
+[18/06/2026 21:05:43,71] Iniciando publisher... 
+[2026-06-19T00:06:12.821Z] Publisher iniciado
+Janela: 2026-06-18T22:36:12.821Z → 2026-06-19T00:11:12.821Z
+Posts a publicar: 2
+
+[IG] 18/06/2026, 21:00:00 — 5 peças. 1 cantinho transformado. Deslize para ver...
+  📸 Publicando como IG Story...
+  ❌ Erro: story_container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 18/06/2026, 21:00:00 — 5 peças. 1 cantinho transformado. Deslize para ver...
+  📸 Publicando como FB Story...
+  ⚠️ FB photo_stories falhou ({"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"), postando no feed...
+  ✅ Story publicado — ID: 1111100822090245_122107937061338235
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 40
+  PUBLISHED: 13
+  ERROR: 3
+
+Esta execução: 1 publicados, 1 erros
+[18/06/2026 21:06:25,00] Publisher finalizado. 

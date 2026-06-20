@@ -1,0 +1,31 @@
+{
+  "agent_id": "kai",
+  "nome": "KAI",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "Produtos > R$150 exigem mais prova social (reviews + UGC)",
+    "Itens de bambu e cerâmica têm giro mais rápido que têxteis",
+    "Pausar produto após 15 dias sem venda (não 10) para dar tempo justo"
+  ],
+  "o_que_funcionou": [
+    "Produtos > R$150 exigem mais prova social (reviews + UGC)",
+    "Itens de bambu e cerâmica têm giro mais rápido que têxteis",
+    "Pausar produto após 15 dias sem venda (não 10) para dar tempo justo"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.258528"
+}

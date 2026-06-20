@@ -1,0 +1,31 @@
+{
+  "agent_id": "feed",
+  "nome": "FEED",
+  "semana": "2026-W24",
+  "skill_scores": {
+    "execucao": 7.0,
+    "qualidade": 7.0,
+    "velocidade": 7.0,
+    "colaboracao": 7.0,
+    "adaptabilidade": 6.0,
+    "analise_dados": 6.0,
+    "alinhamento_persona": 6.5
+  },
+  "execucoes_semana": 0,
+  "taxa_sucesso": 0.0,
+  "aprendizados_novos": [
+    "3 canais: IG @auras.decore + FB Comercial (Graph API) + FB Pessoal (Chrome MCP)",
+    "Falha em 2 publicações seguidas → alertar IVE imediatamente",
+    "Melhor horário Instagram: 10h30/14h30/19h30 (não horário redondo)"
+  ],
+  "o_que_funcionou": [
+    "3 canais: IG @auras.decore + FB Comercial (Graph API) + FB Pessoal (Chrome MCP)",
+    "Falha em 2 publicações seguidas → alertar IVE imediatamente",
+    "Melhor horário Instagram: 10h30/14h30/19h30 (não horário redondo)"
+  ],
+  "o_que_nao_funcionou": [],
+  "metricas": {},
+  "evolucao_vs_semana_anterior": 0.0,
+  "proximo_foco": "",
+  "ultima_atualizacao": "2026-06-14T21:45:26.327568"
+}
