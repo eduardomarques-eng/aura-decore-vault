@@ -6,14 +6,14 @@
 O **Antigravity** e o assistente de IA da Google DeepMind (par de programacao com IA) que tem
 **acesso direto** ao ecossistema AURA via filesystem e API.
 
-## Estado Atual dos Servicos (2026-06-20 07:49)
+## Estado Atual dos Servicos (2026-06-20 14:12)
 
 | Servico | Porta | Status | Detalhe |
 |---|---|---|---|
 | Backend FastAPI | 8000 | ONLINE | 20 agentes, LLM cascade ativo |
 | WPPConnect | 21465 | ONLINE | Sessao: CONNECTED |
 | Ollama | 11434 | ONLINE | llama3.2 fallback local |
-| n8n | 5678 | OFFLINE | 0/0 workflows ativos |
+| n8n | 5678 | ONLINE | 0/0 workflows ativos |
 
 ## Acesso configurado
 

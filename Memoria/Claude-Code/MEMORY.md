@@ -1,10 +1,10 @@
 # Memory Index — Aura Decore
-> Ultima sincronizacao: 2026-06-20 07:49 | Semana 25/2026
+> Ultima sincronizacao: 2026-06-20 14:12 | Semana 25/2026
 
 ## Status do Sistema (2026-06-20)
 - Backend FastAPI: ONLINE porta 8000 — 20 agentes ativos
 - WPPConnect sessao 'aura-decore' CONECTADA ao WhatsApp
-- n8n LOCAL OFFLINE (iniciar com n8n start ou npm run start)
+- n8n LOCAL ATIVO porta 5678 (0/0 workflows ativos)
 - Ollama llama3.2: ONLINE porta 11434
 - LLM primario: Groq llama-3.3-70b (resposta ~1.7s)
 - Watchdog 24/7: watchdog_aura.py (reinicia servicos automaticamente)
@@ -14,7 +14,7 @@
 - [Aura Decore — sistema de agentes](project_aura_decor.md)
   22 agentes ATIVOS. LENA respondendo WhatsApp via webhook /whatsapp/webhook.
   Semana 25/2026: Backend UP, WPPConnect UP, LLM OK (Groq 70B primario).
-  n8n: n8n LOCAL OFFLINE (iniciar com n8n start ou npm run start). n8n Railway OFFLINE (limite recursos).
+  n8n: n8n LOCAL ATIVO porta 5678 (0/0 workflows ativos). n8n Railway OFFLINE (limite recursos).
   TikTok OAuth pendente. Pinterest manual.
 
 - [Topologia de dominios e temas da loja](store_domain_topology.md)

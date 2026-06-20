@@ -17,3 +17,4 @@
 {"ts": "2026-06-20 11:30:37", "ts_short": "11:30", "agent": "KAI", "action": "⚙ Tarefa autônoma", "detail": "Curadoria diária: produto estrela de hoje + justificativa. Algum produto deve ser pausado ou promovi", "category": "produto"}
 {"ts": "2026-06-20 11:30:40", "ts_short": "11:30", "agent": "KAI", "action": "✓ Tarefa concluída", "detail": "**Produto Estrela do Dia:**\nSachê Aromático (R$29)\n\n**Justificativa:**\nO Sachê Aromático é um produto de entrada (low-ticket) que oferece uma excelente margem de lucro (42%) e é um item de alta rotati", "category": "produto"}
 {"ts": "2026-06-20 12:15:42", "ts_short": "12:15", "agent": "SYSTEM", "action": "🚀 Backend iniciado", "detail": "Aura Decore HQ online — todos os agentes prontos", "category": "system"}
+{"ts": "2026-06-20 14:10:31", "ts_short": "14:10", "agent": "SYSTEM", "action": "🚀 Backend iniciado", "detail": "Aura Decore HQ online — todos os agentes prontos", "category": "system"}

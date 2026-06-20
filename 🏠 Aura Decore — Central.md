@@ -17,7 +17,7 @@
 | OpenRouter | ✅ KEY OK | Fallback camada 2 |
 | Google AI | ✅ KEY OK | Fallback camada 3 |
 | Ollama llama3.2 | OK LOCAL | Fallback local ativo |
-| n8n Local | WARN | n8n LOCAL OFFLINE - iniciar com: n8n start |
+| n8n Local | OK | n8n LOCAL (0/0 workflows ativos · porta 5678) |
 | n8n Railway | ❌ FALHOU | Limite de recursos esgotado no Railway |
 | Cloudflare CMA | ✅ ATIVO LOCAL | Repositório `cloudflare/claude-managed-agents` em execução na porta 8787 |
 | Z-API WhatsApp | ✅ CONECTADO | Instância `3F482EF30703B3E9DF097A5987414A01` |
