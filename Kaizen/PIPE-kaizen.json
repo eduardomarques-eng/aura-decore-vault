@@ -11,7 +11,7 @@
     "analise_dados": 6.0,
     "alinhamento_persona": 6.5
   },
-  "execucoes_semana": 1,
+  "execucoes_semana": 0,
   "taxa_sucesso": 0.0,
   "aprendizados_novos": [
     "17 workflows ativos — verificar health toda segunda",
@@ -21,13 +21,11 @@
   "o_que_funcionou": [
     "17 workflows ativos — verificar health toda segunda",
     "Falha de webhook: retry automático com backoff 1min/5min/15min",
-    "Z-API: reconectar se >6h sem mensagem (sessão pode ter caído)",
-    "Manutenção diária 2026-06-20 — score 7.5/10"
+    "Z-API: reconectar se >6h sem mensagem (sessão pode ter caído)"
   ],
   "o_que_nao_funcionou": [],
   "metricas": {},
   "evolucao_vs_semana_anterior": 0.0,
   "proximo_foco": "",
-  "ultima_atualizacao": "2026-06-19T18:07:47.462096",
-  "ultima_manutencao": "2026-06-20 08:01"
+  "ultima_atualizacao": "2026-06-21T14:16:36.670970"
 }
