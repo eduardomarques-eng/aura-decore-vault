@@ -1,0 +1,46 @@
+[21/06/2026  9:05:02,51] Iniciando publisher... 
+[2026-06-21T12:05:04.467Z] Publisher iniciado
+Janela: 2026-06-21T10:35:04.467Z → 2026-06-21T12:10:04.467Z
+Posts a publicar: 2
+
+[FB] 21/06/2026, 09:00:00 — 7 ambientes que vão mudar sua forma de ver decoraç...
+  ✅ Post publicado — ID: 1111100822090245_122108343225338235
+usage: fb_pessoal_chrome_post.py [-h] [--caption CAPTION]
+                                 [--image-url IMAGE_URL]
+                                 [--image-path IMAGE_PATH]
+                                 [--post-date POST_DATE] [--dry-run]
+                                 [--no-publish]
+fb_pessoal_chrome_post.py: error: unrecognized arguments: --url https://cdn.shopify.com/s/files/1/0685/7064/4585/files/0001-2447085992274919075_4029cb90-464a-469e-a016-815db12e6d10.png
+  ⚠️  FB Pessoal: FB_PESSOAL_PAGE_ID não configurado. Defina a variável de ambiente.
+
+[IG] 21/06/2026, 09:00:00 — 7 ambientes que vão mudar sua forma de ver decoraç...
+  ❌ Erro: container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 22
+  PUBLISHED: 22
+  ERROR: 12
+
+Esta execução: 1 publicados, 1 erros
+[21/06/2026  9:05:15,71] Publisher finalizado. 
+[21/06/2026 12:05:03,85] Iniciando publisher... 
+[2026-06-21T15:05:08.149Z] Publisher iniciado
+Janela: 2026-06-21T13:35:08.149Z → 2026-06-21T15:10:08.149Z
+Posts a publicar: 2
+
+[IG] 21/06/2026, 12:00:00 — 7 ambientes. 1 sentimento: PAZ 🌿 Qual é o seu? Co...
+  📸 Publicando como IG Story...
+  ❌ Erro: story_container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 21/06/2026, 12:00:00 — 7 ambientes. 1 sentimento: PAZ 🌿 Qual é o seu? Co...
+  📸 Publicando como FB Story...
+  ⚠️ FB photo_stories falhou ({"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"), postando no feed...
+  ✅ Story publicado — ID: 1111100822090245_122108372043338235
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 20
+  PUBLISHED: 23
+  ERROR: 13
+
+Esta execução: 1 publicados, 1 erros
+[21/06/2026 12:05:14,81] Publisher finalizado. 

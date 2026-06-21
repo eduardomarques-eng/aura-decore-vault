@@ -6,10 +6,23 @@
       "type": "Template",
       "command": true,
       "templatePath": "_TEMPLATES/Leads/lead-template",
-      "folder": {"enabled": true, "folder": "Atendimento/Leads", "chooseWhenCreatingNote": false},
-      "fileNameFormat": {"enabled": true, "format": "{{VALUE:Telefone}}"},
+      "folder": {
+        "enabled": true,
+        "folder": "Atendimento/Leads",
+        "chooseWhenCreatingNote": false
+      },
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Telefone}}"
+      },
       "openFile": true,
-      "openFileInNewTab": false
+      "openFileInNewTab": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "qc-nova-tarefa",
@@ -19,7 +32,16 @@
       "captureTo": "Tarefas/tarefas-{{DATE:YYYY-MM-DD}}",
       "captureFormat": "- [ ] {{VALUE}} 📅 {{DATE:YYYY-MM-DD}}",
       "prepend": false,
-      "createFileIfItDoesntExist": {"enabled": true, "createWithTemplate": false}
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     },
     {
       "id": "qc-nota-rapida",
@@ -29,7 +51,16 @@
       "captureTo": "00 - INBOX/inbox-{{DATE:YYYY-MM-DD}}",
       "captureFormat": "- {{DATE:HH:mm}} → {{VALUE}}",
       "prepend": false,
-      "createFileIfItDoesntExist": {"enabled": true, "createWithTemplate": false}
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     },
     {
       "id": "qc-relatorio",
@@ -37,9 +68,22 @@
       "type": "Template",
       "command": true,
       "templatePath": "_TEMPLATES/Agentes/relatorio-agente",
-      "folder": {"enabled": true, "folder": "Relatorios", "chooseWhenCreatingNote": false},
-      "fileNameFormat": {"enabled": true, "format": "relatorio-{{VALUE:Agente}}-{{DATE:YYYY-MM-DD}}"},
-      "openFile": true
+      "folder": {
+        "enabled": true,
+        "folder": "Relatorios",
+        "chooseWhenCreatingNote": false
+      },
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "relatorio-{{VALUE:Agente}}-{{DATE:YYYY-MM-DD}}"
+      },
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     }
   ],
   "inputPrompt": "single-line",
@@ -152,9 +196,9 @@
     "setVersionAfterUpdateModalRelease": true,
     "addDefaultAIProviders": true,
     "removeMacroIndirection": true,
-    "migrateFileOpeningSettings": false,
-    "backfillFileOpeningDefaults": false,
-    "setProviderModelDiscoveryMode": false,
-    "migrateProviderApiKeysToSecretStorage": false
+    "migrateFileOpeningSettings": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true
   }
 }

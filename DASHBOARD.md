@@ -17,7 +17,7 @@ atualizado: 2026-06-21
 |---|---|---|
 | Backend FastAPI + 22 Agentes | `http://aura-backend:8000` (interno) | ✅ ONLINE |
 | n8n Workflows | `https://n8n.auradecore.com.br` | ✅ 22/22 ATIVOS |
-| WPPConnect (LENA) | `https://wpp.auradecore.com.br` | 🟡 Aguardando QR |
+| WPPConnect (LENA) | `https://wpp.auradecore.com.br` | ✅ CONNECTED |
 | Postiz (FEED) | `https://social.auradecore.com.br` | ✅ ATIVO |
 | Ollama llama3.2 | `http://ollama:11434` (interno) | ✅ ONLINE |
 | Traefik SSL | `https://auradecore.com.br` | ✅ UP |
@@ -27,8 +27,33 @@ atualizado: 2026-06-21
 **Pendências:**
 - [ ] DNS A `backend.auradecore.com.br → 20.246.5.1` (Hostinger)
 - [ ] `TOGETHER_API_KEY` no `.env` da VM (grátis em api.together.ai)
-- [ ] `FB_PAGE_TOKEN` → ativa FEED no Meta/Facebook
-- [ ] Scan QR WhatsApp → LENA online
+- [ ] `GITHUB_TOKEN` no `.env` → libera sync n8n↔Obsidian (WF-MEM01/02/03)
+
+---
+
+## 🔗 Tarefas por Agente
+
+```dataview
+TABLE WITHOUT ID
+  upper(key) AS "Agente",
+  length(rows) AS "Total",
+  length(filter(rows.status, (s) => s = "concluido")) AS "Concluídas",
+  length(filter(rows.status, (s) => s != "concluido")) AS "Abertas"
+FROM "Tarefas"
+WHERE agent
+GROUP BY agent
+SORT length(rows) DESC
+```
+
+## 📊 Tarefas por Status
+
+```dataview
+TABLE WITHOUT ID key AS "Status", length(rows) AS "Qtd"
+FROM "Tarefas"
+WHERE agent
+GROUP BY status
+SORT length(rows) DESC
+```
 
 ---
 

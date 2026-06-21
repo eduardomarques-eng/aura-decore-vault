@@ -642,3 +642,11 @@ Tudo bem, obrigada por perguntar! É um prazer ter você aqui conosc
 Estou aqui para ajudar com qualquer dúvida ou informação que você preci
 
 ---
+
+### 2026-06-21 12:05 [llm]
+**Tarefa:** WhatsApp [5511999999999] intent=saudacao escalado=False: Bom dia, tudo bem?
+**Resultado:** Olá Teste Diagnóstico! Seja bem-vinda à Aura Decore 🌿
+
+Tudo bem, sim! É um prazer enorme ter você aqui conosco. Estamos 
+
+---
