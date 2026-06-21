@@ -3,7 +3,7 @@ agente: REX
 cargo: Tráfego · Meta Ads
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 📈 REX — Tráfego · Meta Ads

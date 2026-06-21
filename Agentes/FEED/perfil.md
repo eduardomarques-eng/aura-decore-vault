@@ -3,7 +3,7 @@ agente: FEED
 cargo: Publicador · Redes Sociais
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 📲 FEED — Publicador · Redes Sociais

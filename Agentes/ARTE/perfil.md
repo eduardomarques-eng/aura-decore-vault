@@ -3,7 +3,7 @@ agente: ARTE
 cargo: Criativo · IA Visual
 superior: LUNA
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🖼️ ARTE — Criativo · IA Visual

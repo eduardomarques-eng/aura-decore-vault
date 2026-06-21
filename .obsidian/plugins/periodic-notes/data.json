@@ -1,0 +1,30 @@
+{
+  "installedVersion": "1.0.0-beta1",
+  "activeCalendarSet": "Default",
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "calendarSets": [
+    {
+      "day": {
+        "enabled": true,
+        "openAtStartup": true,
+        "format": "YYYY-MM-DD",
+        "templatePath": "_TEMPLATES/Daily/daily-note",
+        "folder": "Daily Notes"
+      },
+      "week": {
+        "enabled": true,
+        "format": "YYYY-[W]WW",
+        "templatePath": "_TEMPLATES/Daily/daily-note",
+        "folder": "Daily Notes"
+      },
+      "month": {},
+      "quarter": {},
+      "year": {},
+      "id": "Default",
+      "ctime": "2026-06-21T00:00:00-03:00"
+    }
+  ],
+  "enableTimelineComplication": true
+}

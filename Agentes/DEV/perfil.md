@@ -3,7 +3,7 @@ agente: DEV
 cargo: Desenvolvedor · Shopify
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 💻 DEV — Desenvolvedor · Shopify

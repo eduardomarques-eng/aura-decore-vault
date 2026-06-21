@@ -3,7 +3,7 @@ agente: NOX
 cargo: Conteúdo · Reels
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🎬 NOX — Conteúdo · Reels

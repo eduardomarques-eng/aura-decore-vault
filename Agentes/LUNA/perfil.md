@@ -3,7 +3,7 @@ agente: LUNA
 cargo: Design · Visual
 superior: IVE
 subordinados: [arte]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🎨 LUNA — Design · Visual

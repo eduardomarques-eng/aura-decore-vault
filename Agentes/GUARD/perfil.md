@@ -3,7 +3,7 @@ agente: GUARD
 cargo: CFO · Protetor Financeiro
 superior: Eduardo Marques (Diretor)
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 💰 GUARD — CFO · Protetor Financeiro

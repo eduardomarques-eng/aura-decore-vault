@@ -3,7 +3,7 @@ agente: IVE
 cargo: CEO · Estratégia
 superior: Eduardo Marques (Diretor)
 subordinados: [vera, luna, nox, theo, kai, echo, lena, sol, zara, mira, pipe, arte, feed, dev]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 👩‍💼 IVE — CEO · Estratégia

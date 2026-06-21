@@ -1,6 +1,6 @@
 # Equipe Aura Decore — 22 Agentes
 
-> Atualizado em 2026-06-20 · Backend porta 8000 ONLINE · Mobile em `/mobile` · LLM cascade: Groq -> Claude -> Ollama · 22 agentes ativos
+> Atualizado em 2026-06-21 · Backend porta 8000 ONLINE · Mobile em `/mobile` · LLM cascade: Groq -> Claude -> Ollama · 22 agentes ativos
 
 ## Hierarquia
 
@@ -160,7 +160,97 @@ http://localhost:8000/mobile
 - **FINA → GUARD → Eduardo** = pipeline financeiro (rastrear → validar → aprovar pagamento)
 - **KAI → ARTE → LUNA → THEO** = 🚨 pipeline diário de imagens produto (prioridade → gerar → aprovar → subir Shopify)
 
-## Estado Atual (2026-06-20)
+## Estado Atual (2026-06-21)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **22/22 ATIVOS** porta 5678
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-21 01:11)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **0/0 ATIVOS** porta 5678
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-21 00:21)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **0/0 ATIVOS** (offline)
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-20 23:56)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **0/0 ATIVOS** porta 5678
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-20 23:34)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **0/0 ATIVOS** porta 5678
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-20 23:07)
+
+> **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
+> Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.
+> LLM primario: Groq 70B (~1.7s resposta). Watchdog 24/7 ativo.
+> 22 agentes configurados. Aguardando primeiras vendas pagas.
+
+- Faturamento: pendente (aguardando campanha paga)
+- ROAS: — (sem campanhas pagas — organico ativo)
+- CAC: — (organico, sem custo)
+- MEI acumulado: — / R$81.000 (GUARD monitorando)
+- Portfolio: **89 produtos ACTIVE · 100% publicados**
+- Tema live: **"Aura Decore - Cursor Dinamico" (160266387561)**
+- Workflows n8n: **0/0 ATIVOS** porta 5678
+- Backend: http://localhost:8000 | WPPConnect: http://localhost:21465
+- Sincronizado com: Antigravity IDE + Claude Code (2026-06-20 22:56)
 
 > **Fase operacional** — loja publica desde 30/05/2026. Sistema 100% online.
 > Backend UP (porta 8000). WPPConnect UP (porta 21465). LENA atendendo WhatsApp.

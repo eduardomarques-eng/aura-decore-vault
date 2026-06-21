@@ -3,7 +3,7 @@ agente: FINA
 cargo: Finanças Operacional · Pagamentos PJ
 superior: GUARD
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 💳 FINA — Finanças Operacional · Pagamentos PJ

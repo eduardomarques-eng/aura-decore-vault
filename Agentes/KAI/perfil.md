@@ -3,7 +3,7 @@ agente: KAI
 cargo: Produtos · Curadoria
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🛍️ KAI — Produtos · Curadoria

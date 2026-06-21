@@ -1,5 +1,5 @@
 ---
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 fase: operacao-ativa
 ---
 
@@ -13,7 +13,7 @@ fase: operacao-ativa
 - **Plataforma:** Shopify (tema Dawn — "Cursor Dinamico" 160266387561)
 - **Canais:** Meta Ads, Instagram, Pinterest, WhatsApp (WPPConnect), Notion CRM, Gmail, Canva
 
-## Fase Atual (2026-06-20)
+## Fase Atual (2026-06-21)
 **OPERACAO ATIVA** — loja publica desde 30/05/2026. Backend online, LENA atendendo WhatsApp.
 Crescimento organico ativo. Aguardando primeiras vendas pagas.
 
@@ -41,7 +41,7 @@ Telefones: 5585985902642, 5585981957208
 6. Toda decisao estrategica passa pela IVE
 7. Eduardo tem autoridade suprema sobre todos os agentes
 
-## Stack Tecnica (2026-06-20)
+## Stack Tecnica (2026-06-21)
 - Backend FastAPI: http://localhost:8000 (porta 8000) — 22 agentes ATIVOS
 - WPPConnect: http://localhost:21465 — sessao aura-decore CONECTADA
 - Ollama: http://localhost:11434 — llama3.2 (fallback LLM local)

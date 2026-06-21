@@ -3,7 +3,7 @@ agente: ZARA
 cargo: Community · Instagram
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🌸 ZARA — Community · Instagram

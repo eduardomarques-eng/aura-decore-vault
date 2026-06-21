@@ -1,0 +1,6 @@
+{
+  "port": 27124,
+  "insecurePort": 27123,
+  "enableInsecureServer": false,
+  "apiKey": "37d0f7d33f2741fe3a9d41bb700dd484d2be278f15b4b94accfd14760b81e13e"
+}

@@ -3,7 +3,7 @@ agente: VERA
 cargo: Copy · Textos
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # ✍️ VERA — Copy · Textos

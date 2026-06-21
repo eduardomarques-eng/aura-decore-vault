@@ -3,7 +3,7 @@ agente: ECHO
 cargo: Auditor · Semanal
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🔍 ECHO — Auditor · Semanal

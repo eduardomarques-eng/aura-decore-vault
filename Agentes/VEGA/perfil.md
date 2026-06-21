@@ -3,7 +3,7 @@ agente: VEGA
 cargo: Videomaker · Motion Director
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🎥 VEGA — Videomaker · Motion Director

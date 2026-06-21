@@ -3,7 +3,7 @@ agente: MIRA
 cargo: SEO · Pesquisa
 superior: IVE
 subordinados: [—]
-atualizado: 2026-06-20
+atualizado: 2026-06-21
 ---
 
 # 🔎 MIRA — SEO · Pesquisa

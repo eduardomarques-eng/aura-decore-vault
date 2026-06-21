@@ -1,6 +1,9 @@
 ---
 type: dashboard
-tags: [dashboard, homepage, central]
+tags:
+  - dashboard
+  - homepage
+  - central
 cssclass: dashboard
 ---
 
