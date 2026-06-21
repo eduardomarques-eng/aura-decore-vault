@@ -43,3 +43,6 @@
 {"ts": "2026-06-21 17:00:54", "ts_short": "17:00", "agent": "FEED", "action": "📲 Story 2 (produto)", "detail": "vaso cerâmica da semana — swipe para ver na loja", "category": "social"}
 {"ts": "2026-06-21 17:07:34", "ts_short": "17:07", "agent": "SYSTEM", "action": "🚀 Backend iniciado", "detail": "Aura Decore HQ online — todos os agentes prontos", "category": "system"}
 {"ts": "2026-06-21 19:00:49", "ts_short": "19:00", "agent": "FEED", "action": "📲 Story 3 (produto)", "detail": "vaso cerâmica da semana — swipe para ver na loja", "category": "social"}
+{"ts": "2026-06-21 20:00:04", "ts_short": "20:00", "agent": "ECHO", "action": "⚙ Tarefa autônoma", "detail": "Auditoria rápida do dia: o que cada agente produziu hoje? Score do dia (0-10). Top 3 melhorias para ", "category": "operacoes"}
+{"ts": "2026-06-21 20:00:05", "ts_short": "20:00", "agent": "ECHO", "action": "✓ Tarefa concluída", "detail": "**Auditoria Rápida do Dia**\n\nInfelizmente, não tenho acesso direto aos dados do Windsor.ai, pois a WINDSOR_API_KEY não foi configurada. Para realizar a auditoria, preciso que Eduardo configure a chave", "category": "operacoes"}
+{"ts": "2026-06-21 20:18:35", "ts_short": "20:18", "agent": "SYSTEM", "action": "🚀 Backend iniciado", "detail": "Aura Decore HQ online — todos os agentes prontos", "category": "system"}
