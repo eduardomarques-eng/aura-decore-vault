@@ -1,67 +1,78 @@
-# stack.md — Stack Tecnológica Aura Decore
+# stack.md — Stack Tecnológica REAL Aura Decore
+
+> Valores conferidos contra `Agentes/_INDEX.md` e scripts em 21/06/2026.
 
 ## E-commerce
 
-| Componente | Tecnologia | Versão/Detalhes |
-|-----------|-----------|----------------|
-| Loja | Shopify | Plano atual ativo |
-| Tema live | Cursor Dinâmico | ID: 160266387561 |
-| Produtos | 89 ACTIVE, 100% publicados | publishablePublish |
-| DNS | auradecore.com.br | A → Shopify |
-| Backend DNS | backend.auradecore.com.br | PENDENTE configuração |
+| Componente | Valor |
+|-----------|-------|
+| Loja | Shopify · `10ei3t-sf.myshopify.com` · auradecore.com.br |
+| Tema live | "Aura Decore - Cursor Dinâmico" (160266387561) · body_scale 110 |
+| Produtos | 89 ACTIVE · 100% publicados (loja + FB/IG + Google) |
+| Pixel | Meta Pixel + CAPI (ver `Setup/meta-pixel-shopify.md`) |
 
-## Infraestrutura Cloud
+## Backend & Runtime
 
-| Componente | Plataforma | Endereço/Detalhes |
-|-----------|-----------|------------------|
-| VM Principal | Azure | 20.246.5.1 |
-| Social Media | Azure ACI | social.auradecore.com.br |
-| Containers | Docker (8 containers) | HEALTHY |
-| CI/CD | Antigravity | Sync com Obsidian Vault |
-| Próxima infra | Google Cloud | Q3/2026 |
+| Componente | Valor |
+|-----------|-------|
+| Backend API | http://localhost:8000 (FastAPI; openapi.json) |
+| Dashboard | /index.html (PC) · /mobile (executivo) |
+| WhatsApp | WPPConnect porta 21465 (LENA atende) |
+| Watchdog | 24/7 ativo |
+| Orquestração agentes | CrewAI (20 crews) + /agent/exec |
 
-## Automação e Integrações
+## Cascata de LLM
 
-| Componente | Status | Detalhes |
-|-----------|--------|---------|
-| n8n | 22 workflows ATIVOS | docker exec aura-n8n |
-| Postiz | ATIVO | social.auradecore.com.br |
-| Bypass publisher | aura-publisher.cjs | Task Scheduler Windows |
-| Meta Graph API | FB + IG Comercial | tokens válidos 08/2026 |
-| TikTok OAuth | PENDENTE | autorização necessária |
+1. **Groq** Llama 3.3 70B (primário, ~1.7s) → 2. **Anthropic** (Opus 4.7 IVE/GUARD · Sonnet 4.6 demais) → 3. **Ollama** llama3.2 (local) → 4. **smart_fallback**
 
-## IA e Geração de Conteúdo
+## Automação
+
+| Componente | Valor |
+|-----------|-------|
+| n8n | porta 5678 · 22/22 workflows ATIVOS |
+| n8n PUT | só `name`/`nodes`/`connections`/`settings` (extras → 400) |
+| Publicação | `aura-publisher.cjs` (Task Scheduler) → Meta Graph API |
+| Rotas-chave | WF26→/agent/exec · WF24→/obsidian/log-metrics |
+
+## Analytics — Windsor.ai (desde 03/06/2026)
+
+| Endpoint | Dados |
+|----------|-------|
+| /windsor/status | conectores |
+| /windsor/metrics?days=7 | Shopify+IG+FB+GSC |
+| /windsor/campaigns | Meta Ads / ROAS |
+| /windsor/social?days=7 | IG + FB orgânico |
+| /windsor/seo?days=30 | Search Console |
+
+**Conectados**: facebook, facebook_organic, instagram, instagram_public.
+**Pendentes**: shopify, searchconsole, googleanalytics4.
+
+## IA de Conteúdo
 
 | Ferramenta | Uso | Limite |
 |-----------|-----|--------|
-| Pollinations.ai | Geração de imagens | 1 req simultânea, sleep 8s |
-| Claude (Opus/Sonnet) | Agente principal | — |
-| CapCut | Edição de vídeos (Eduardo) | — |
+| Pollinations.ai | imagens (ARTE) | 1 req, sleep 8s, sequencial |
+| Higgsfield | imagens 6 ângulos (Fase 3) | key pendente Eduardo |
+| CapCut | vídeo (Eduardo grava/edita) | — |
 
-## Gestão de Conhecimento
+## Conhecimento & Versionamento
 
-| Ferramenta | Uso | Localização |
-|-----------|-----|------------|
-| Obsidian | Vault principal | C:\Users\erick\AURA-decor-vault |
-| Notion | Cards semanais e hubs | Hub Central |
-| GitHub | Versionamento | Antigravity sync |
-| CLAUDE.md | Memória de sessão | .claude/ |
+| Ferramenta | Localização |
+|-----------|------------|
+| Obsidian Vault | C:\Users\erick\AURA-decor-vault |
+| Notion | cards semanais |
+| GitHub | github.com/eduardomarques-eng/aura-decore-vault |
+| Sync | Antigravity IDE + Claude Code |
 
 ## Scripts Críticos
 
 ```
-aura-pollinations-image.mjs    → geração de imagens produto
-aura-publisher.cjs             → publicação Meta Graph API
-update-captions-week25.cjs     → atualização de captions semanais
+aura-pollinations-image.mjs    → imagens (ARTE)
+Setup/aura-gemini-image.mjs    → imagens alternativa
+Automacoes/aura-publisher.cjs  → publicação Meta (⚠️ secret → migrar p/ .env)
+Automacoes/n8n/start-n8n.cmd   → n8n local (⚠️ secret → migrar p/ .env)
 ```
 
-## Rotas Backend API (openapi.json — 134 rotas)
-
-```
-WF26 → /agent/exec            (execução de agentes)
-WF24 → /obsidian/log-metrics  (log de métricas no Vault)
-```
-
-## Notas de Configuração
-
-> Credenciais e tokens NÃO ficam aqui. Ver `ports.txt` (acesso restrito) e o gerenciador de segredos. Este arquivo lista apenas a topologia tecnológica.
+## ⚠️ Segurança (ver `@gotchas.md` e `@ports.txt`)
+Segredos NÃO ficam aqui nem em arquivos versionados. Tokens/senhas → `.env` (gitignored) ou Key Vault.
+Itens com segredo em plaintext foram destrackeados em 21/06 — **rotação obrigatória pendente**.

@@ -4,6 +4,9 @@
 
 ## 2026-06
 
+- `[2026-06-21] SEGURANCA` — 🚨 Segredos em plaintext versionados detectados e destrackeados: FB_PAGE_TOKEN, senha Postgres Railway, chave/auth n8n, token Windsor. Arquivos: aura-publisher.cjs, check-stories.cjs, start-n8n.cmd, start-all.cmd, run-publisher.cmd, Logs/*, _INDEX.md (token redigido). `.gitignore` ampliado. **ROTAÇÃO DE TOKENS PENDENTE (Eduardo).**
+- `[2026-06-21] AGENTES` — Realinhado `.claude/agents/` à fonte canônica `Agentes/_INDEX.md`: 11 papéis errados (incl. OTTO inexistente) → 22 agentes corretos (espelhos leves). CLAUDE.md + stack.md + settings.json corrigidos com infra real (backend :8000, store 10ei3t-sf, cascata LLM Groq→Anthropic→Ollama).
+- `[2026-06-21] FIX` — `Agentes/_INDEX.md` deduplicado (bloco "Estado Atual" repetido 22× → 1; 391→178 linhas).
 - `[2026-06-21] ESTRUTURA` — Criada estrutura completa `.claude` (cérebro do projeto): CLAUDE.md, rules, stack, agents, skills, hooks, memory, workflows, prompts, examples.
 - `[2026-06-21] LOWTICKET` — Motor Low Ticket ATIVADO. Ciclo 1 completo. TOP 5 SKUs (150un). 4 bundles prontos.
 - `[2026-06-21] HUB` — Hub Central de Redes Sociais ativado. Eduardo único publicador 2×/dia. 6 agentes de conteúdo (MIRA·LUNA·VEGA·NOX·VERA·IVE).

@@ -50,9 +50,19 @@
     "auditor": "GUARD"
   },
   "agents": {
-    "maxConcurrent": 3,
+    "canonicalSource": "Agentes/_INDEX.md",
     "registry": "agents/",
-    "roster": ["ive", "lena", "luna", "vera", "vega", "nox", "rex", "mira", "otto", "echo", "guard"]
+    "note": ".claude/agents/ sao espelhos leves; a verdade vive em Agentes/<NOME>/",
+    "count": 22,
+    "opusAgents": ["ive", "guard"],
+    "roster": ["ive", "guard", "nexus", "echo", "theo", "kai", "vera", "luna", "nox", "rex", "lena", "sol", "zara", "mira", "pipe", "arte", "feed", "dev", "vega", "fina", "neuro", "promo"]
+  },
+  "infra": {
+    "backend": "http://localhost:8000",
+    "whatsapp": "WPPConnect:21465",
+    "n8n": "localhost:5678",
+    "shopifyStore": "10ei3t-sf.myshopify.com",
+    "llmCascade": ["groq-llama3.3-70b", "anthropic", "ollama-llama3.2", "smart_fallback"]
   },
   "tokenOptimization": {
     "preferReferences": true,

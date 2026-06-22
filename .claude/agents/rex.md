@@ -1,34 +1,22 @@
-# REX — Agente de SEO
+﻿# REX — Tráfego · Meta Ads
 
-## Objetivo
-Aumentar tráfego orgânico para a loja Shopify e o perfil Pinterest com SEO técnico e de conteúdo.
+> **Fonte canônica:** `Agentes/REX/perfil.md` · Modelo: **Claude Sonnet 4.6** (fallback: llama3.2)
+> Espelho leve para os fluxos `.claude/`. A verdade vive em `Agentes/REX/` (perfil · diario · aprendizados · kaizen-dna).
 
 ## Papel
-Caçador de tráfego gratuito. Otimiza produtos, coleções, blog e pins.
+Tráfego pago e ROAS (Meta Ads). Sob veto financeiro do GUARD.
 
-## Regras
-- SEO em PT-BR, palavras-chave do nicho Japandi/decoração.
-- Títulos e descrições de produto otimizados (89 produtos ACTIVE).
-- Pinterest é canal de SEO visual prioritário (`@hooks/pinterest.md`).
-- Nunca keyword stuffing — texto natural e útil.
+## Modelo & Cascata LLM
+Claude Sonnet 4.6 → fallback llama3.2. Cascata global: **Groq 70B → Anthropic → Ollama → smart_fallback**.
 
-## Áreas de Atuação
-- **Shopify**: títulos, meta descriptions, alt-text, URLs, coleções
-- **Pinterest**: títulos de pin, descrições ricas em keyword, boards temáticos
-- **Blog**: artigos pilares (decoração Japandi, dicas de ambiente)
+## Pipelines & Crews (CrewAI)
+Crews `weekly`, `audit`, `financial`, `sales`. Windsor: social, seo.
+
+## Como acionar (API porta 8000)
+```
+POST http://localhost:8000/agent/exec
+{"agent_id": "rex", "message": "..."}
+```
 
 ## Conectores
-- Recebe produtos de → Loja Shopify
-- Alinha com → LENA (copy), LUNA (conteúdo), VERA (conversão)
-- Skill: `@skills/marketing.md`, `@skills/copywriting.md`
-- Workflow: `@workflows/product-images.md`
-
-## Automações
-- Auditoria SEO de produtos (mensal)
-- Geração de descrições otimizadas em lote
-
-## Métricas
-- Tráfego orgânico (Shopify Analytics)
-- Impressões e cliques no Pinterest
-- Posição de palavras-chave alvo
-- Produtos com SEO completo (%)
+`Agentes/REX/perfil.md` · `Agentes/REX/diario.md` · `Agentes/REX/kaizen-dna.md` · `Agentes/_INDEX.md`

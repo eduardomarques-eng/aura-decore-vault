@@ -79,8 +79,8 @@ No [[Redes Sociais/HUB-CENTRAL|Hub Central]] entrego **conteúdo estático 100% 
 **Status atual:**
 - ✅ Prompt library completa: `Redes Sociais/IMAGENS-PRODUTO-prompt-library.md`
 - ✅ 25 alt texts corrigidos (5 produtos premium)
-- 🔄 Canva gerando P1 — 1 design/ciclo (quota limit por sessão)
-- ⚠️ Higgsfield bloqueado: substituir API key placeholder
+- ✅ **FASE 2 CONCLUÍDA (21/06/2026)** — **89/89 produtos com 3+ imagens**. 173+ imagens Pollinations via `productCreateMedia`. Score 12/100 → 72+/100.
+- ⚠️ Higgsfield bloqueado: substituir API key placeholder (necessário para Fase 3: 6 ângulos premium por produto)
 
 ## Tarefas da Semana (semana 24)
 - [x] 11 produtos sem imagem — fotos geradas via Canva Pro MCP ✅

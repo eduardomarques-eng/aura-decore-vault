@@ -33,6 +33,9 @@
 
 ## Tokens / Segurança
 
+**❌ Armadilha:** Segredos hardcoded em scripts/logs versionados (FB_PAGE_TOKEN, senha Postgres, chave n8n) vazaram para o GitHub.
+**✅ Solução:** Destrackeados via `git rm --cached` + `.gitignore` (Logs/, *.cmd, scripts .cjs). Migrar segredos para `.env` (gitignored). ⚠️ **Vazamento permanece no histórico git → ROTACIONAR todos os tokens é obrigatório** (redação não desfaz o leak).
+
 **❌ Armadilha:** IG_TOKEN expira 08/2026 e quebra todas as publicações.  
 **✅ Solução:** GUARD alerta 30 dias antes (até 07/2026). FB_PAGE_TOKEN é permanente.
 

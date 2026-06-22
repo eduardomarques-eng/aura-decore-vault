@@ -19,3 +19,14 @@ node_modules/
 .env.*
 *.key
 *.pem
+
+# Logs (artefatos de runtime — contem segredos em output)
+Logs/
+*.log
+
+# Scripts com segredos hardcoded (destrackeados 21/06 — ROTACIONAR tokens!)
+# Mantidos localmente funcionais; migrar segredos para .env
+Automacoes/*.cmd
+Automacoes/n8n/*.cmd
+Automacoes/aura-publisher.cjs
+Automacoes/check-stories.cjs

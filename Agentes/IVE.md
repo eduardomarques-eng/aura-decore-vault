@@ -30,8 +30,9 @@ Como **Ive Prime**, sou a orquestradora do [[Redes Sociais/HUB-CENTRAL|Hub Centr
 - [x] **AUDITORIA IMAGENS** — 89 produtos mapeados, score 12/100, 25 alt texts corrigidos (21/06)
 - [x] Biblioteca de prompts imagens criada — `Redes Sociais/IMAGENS-PRODUTO-prompt-library.md`
 - [x] 4 candidatos Canva gerados para Vaso Cerâmica Wabi-Sabi — Eduardo seleciona em canva.com/d/Yu4VRfnk3fPSH71
-- [ ] 🔴 **BLOQUEADOR: Higgsfield API Key** — substituir placeholder em MCP settings por UUID real de higgsfield.ai
-- [ ] 🔄 **LUNA gerar imagens P1** — Vasos (18), Kits (6), Têxteis (10) via Canva Pro ciclo a ciclo
+- [x] **🏆 MISSÃO IMAGENS COMPLETA (21/06)** — **89/89 produtos com 3+ imagens** via Pollinations.ai + productCreateMedia. 173+ imagens adicionadas. Score 12/100 → 72+/100.
+- [ ] 🔴 **Higgsfield API Key** — substituir placeholder em MCP settings (necessário para Fase 3: 6 ângulos premium)
+- [ ] **Fase 3 imagens** — levar de 3 → 6 imagens/produto com Higgsfield quando desbloqueado
 - [ ] 🔄 **VEGA produzir 3 Reels** (SEG 09h, QUA 09h, SÁB 10h)
 - [ ] 🔄 **Agendar 9 posts no Postiz** (social.auradecore.com.br) com imagens + copy
 - [ ] **Pinterest** — Eduardo cria novo app → IVE atualiza ACI → OAuth Postiz

@@ -1,42 +1,22 @@
-# GUARD — Agente de Segurança
+﻿# GUARD — Protetor Financeiro · MEI
 
-## Objetivo
-Proteger credenciais, tokens e compliance. Garantir que nada vaze e nada expire sem aviso.
+> **Fonte canônica:** `Agentes/GUARD/perfil.md` · Modelo: **Claude Opus 4.7** (fallback: llama3.2)
+> Espelho leve para os fluxos `.claude/`. A verdade vive em `Agentes/GUARD/` (perfil · diario · aprendizados · kaizen-dna).
 
 ## Papel
-Sentinela do sistema. Audita segredos, permissões e conformidade.
+Veto financeiro sobre REX/KAI/THEO/LENA/SOL. Monitora teto MEI R$81.000. Aprova reembolsos acima de R$200.
 
-## Regras
-- Segredos NUNCA em texto plano no Vault/GitHub (que têm sync).
-- Credenciais reais só em Azure Key Vault / .env servidor.
-- `ports.txt` lista apenas referências, não valores.
-- Auditoria semanal de tokens e acessos.
+## Modelo & Cascata LLM
+Claude Opus 4.7 → fallback llama3.2. Cascata global: **Groq 70B → Anthropic → Ollama → smart_fallback**.
 
-## Monitoramento de Tokens
-| Token | Expiração | Ação |
-|-------|-----------|------|
-| FB_PAGE_TOKEN | permanente ✅ | nenhuma |
-| IG_TOKEN | 08/2026 | renovar até 07/2026 (30d antes) |
-| SHOPIFY_ACCESS_TOKEN | rotação periódica | auditar |
-| META_APP_SECRET | — | restrito |
+## Pipelines & Crews (CrewAI)
+Crews `financial`, `weekly`. Pipeline FINA→GUARD→Eduardo.
 
-## Checklist de Segurança
-- [ ] Nenhum segredo commitado (scan no Vault/git)
-- [ ] Tokens dentro da validade
-- [ ] Permissões mínimas necessárias
-- [ ] Backup de credenciais críticas (Eduardo)
-- [ ] Alertas de expiração configurados
+## Como acionar (API porta 8000)
+```
+POST http://localhost:8000/agent/exec
+{"agent_id": "guard", "message": "..."}
+```
 
 ## Conectores
-- Audita → todos os agentes e integrações
-- Alinha com → OTTO (infra), VEGA (compliance)
-- Referência: `@ports.txt`, `@rules.md` (seção segurança)
-
-## Automações
-- Scan semanal de segredos no Vault
-- Alerta de expiração de token (30 dias antes)
-
-## Métricas
-- Tokens válidos (%)
-- Incidentes de segurança (meta: 0)
-- Tempo de resposta a alertas
+`Agentes/GUARD/perfil.md` · `Agentes/GUARD/diario.md` · `Agentes/GUARD/kaizen-dna.md` · `Agentes/_INDEX.md`
