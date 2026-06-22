@@ -37,3 +37,30 @@
 - **Pausar**: Diffuser (margem 28%, abaixo do mínimo 35%)
 - **Destacar**: Vela âmbar (40% do faturamento)
 - **Avaliar**: 2 novos produtos Habitoo com margem >40%
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/KAI/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/KAI/diario|Diário de Atividades]]
+- 🧠 [[Agentes/KAI/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/KAI/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "kai" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "kai" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

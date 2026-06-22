@@ -58,3 +58,30 @@ Auditor semanal da Aura Decore. Avalia todos os 20 agentes usando metodologia Ka
 - Reporta para: [[IVE]]
 - Audita: todos os 20 agentes
 - Informa: [[GUARD]] (métricas financeiras), [[IVE]] (score geral semanal)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/ECHO/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/ECHO/diario|Diário de Atividades]]
+- 🧠 [[Agentes/ECHO/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/ECHO/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "echo" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "echo" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

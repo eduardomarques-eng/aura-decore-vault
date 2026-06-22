@@ -54,3 +54,30 @@ Especialista em Conversion Rate Optimization da Aura Decore. Recupera carrinhos 
 - Reporta para: [[IVE]]
 - Coordena: [[REX]] (retargeting), [[VERA]] (copy email), [[LENA]] (recovery WA)
 - Valida: [[GUARD]] (margem bundles), [[FINA]] (custo por conversão)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/SOL/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/SOL/diario|Diário de Atividades]]
+- 🧠 [[Agentes/SOL/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/SOL/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "sol" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "sol" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

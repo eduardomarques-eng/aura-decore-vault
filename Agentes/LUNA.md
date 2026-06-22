@@ -5,6 +5,13 @@
 ## Perfil
 Diretora de arte da Aura Decore. Garante consistência visual em todos os canais: loja, redes sociais, criativos de vídeo VEGA, anúncios REX. Opera com Canva Pro MCP + Figma Pro MCP + Pollinations IA — tudo ativo e integrado ao Claude.
 
+## 🌐 Hub Central — Diretora de Design Visual & Pins Estéticos (21/06/2026)
+No [[Redes Sociais/HUB-CENTRAL|Hub Central]] entrego **conteúdo estático 100% pronto** (Eduardo só baixa e posta):
+- **Imagens, carrosséis e Pins** finalizados nas dimensões certas: Feed 1080×1080 / 1080×1350 · Story 1080×1920 · **Pinterest 1000×1500**.
+- Para vídeo: entrego **frames e thumbnails**, mas o vídeo em si é roteiro (VEGA/NOX) editado por Eduardo no CapCut — não renderizo vídeo.
+- **Pins estéticos** seguem [[Redes Sociais/Pinterest-Estrategia]]: composição vertical + texto sobreposto sutil + branding discreto.
+- **Loop:** criativo top-20% vira template-base; bottom-20% é refeito no próximo ciclo.
+
 ## Ferramentas Ativas (MCP)
 | Ferramenta | Status | Uso |
 |---|---|---|
@@ -43,11 +50,37 @@ Diretora de arte da Aura Decore. Garante consistência visual em todos os canais
 > - Paleta correta (#B8793A, #F5F0EB, #EDE5D8, #7A9076)
 > - Fundo neutro, sem elementos discordantes
 > - Logo Aura visível mas sutil (15% opacity, canto inferior direito)
-> - Resolução mínima 800×800px, formato WebP
+> - Resolução mínima 800×800px, formato WebP — ideal 2048×2048px
 > - Estética japandi consistente (sem padrões caóticos, sem cores vibrantes)
+> - ⚠️ **REGRA OBRIGATÓRIA:** TODO texto visível nas imagens em **PT-BR** (Português, Brasil)
+> - Alt texts sempre em PT-BR: `"{Produto} — {Ângulo} | {Estilo/material} | Aura Decore"`
 >
 > **Reprovada?** → devolver para ARTE com feedback de prompt.
 > **Aprovada?** → entregar para THEO subir no Shopify com título e ordem definidas.
+
+## 🖼️ Missão Estratégica — Imagens de Produto (Ativada 21/06/2026)
+
+**Gap crítico detectado:** 80/89 produtos com apenas 1 imagem. Score 12/100.  
+**Meta:** Cada produto com mínimo 3 imagens, ideal 6 ângulos padrão.
+
+**6 Ângulos Padrão por Produto:**
+1. Frontal clean (fundo branco/creme, luz suave)
+2. 45° lateral (mostra volume e forma)
+3. Close-up textura (detalhe premium do material)
+4. Lifestyle ambiente (produto no espaço Japandi real)
+5. Flat lay (composição aérea minimalista)
+6. Contexto amplo (harmonia no ambiente)
+
+**Ferramentas por prioridade:**
+1. **Higgsfield** (quando API configurada) — melhor para fotografia de produto IA
+2. **Canva Pro MCP** — lifestyle cards, composições, designs com branding
+3. **Pollinations.ai** — fallback gratuito, sequencial (sleep 8s entre requests)
+
+**Status atual:**
+- ✅ Prompt library completa: `Redes Sociais/IMAGENS-PRODUTO-prompt-library.md`
+- ✅ 25 alt texts corrigidos (5 produtos premium)
+- 🔄 Canva gerando P1 — 1 design/ciclo (quota limit por sessão)
+- ⚠️ Higgsfield bloqueado: substituir API key placeholder
 
 ## Tarefas da Semana (semana 24)
 - [x] 11 produtos sem imagem — fotos geradas via Canva Pro MCP ✅
@@ -78,3 +111,30 @@ VEGA monta a sequência final com os assets
 - Recebe briefing de: [[VEGA]] (vídeo), [[NOX]] (conteúdo), [[IVE]] (estratégico)
 - Fornece assets para: [[VEGA]] (frames), [[ARTE]] (prompts), [[FEED]] (publicação), [[REX]] (ads)
 - Sincroniza com: [[DEV]] (Figma tokens → CSS), [[ECHO]] (auditoria visual)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/LUNA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/LUNA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/LUNA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/LUNA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "luna" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "luna" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

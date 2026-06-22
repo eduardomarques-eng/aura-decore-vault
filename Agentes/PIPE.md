@@ -79,3 +79,30 @@ Engenheiro de automação da Aura Decore. Constrói e mantém workflows no n8n c
 - `POST /tasks` com `agent_id=pipe`
 - `POST /crew/run` com `crew_type=automation` — crew PIPE+THEO
 - JSONs de workflows: `aura-office-dashboard/n8n-workflows/*.json`
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/PIPE/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/PIPE/diario|Diário de Atividades]]
+- 🧠 [[Agentes/PIPE/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/PIPE/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "pipe" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "pipe" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

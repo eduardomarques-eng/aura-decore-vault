@@ -63,3 +63,30 @@ Voz amiga da Aura Decore no Instagram. Engaja a comunidade com calor humano, res
 ## Endpoints
 - `POST /tasks` com `agent_id=zara`
 - `POST /crew/run` com `crew_type=marketing` — crew NOX+VERA+ZARA
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/ZARA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/ZARA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/ZARA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/ZARA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "zara" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "zara" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

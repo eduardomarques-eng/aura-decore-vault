@@ -59,3 +59,30 @@ Voz humana da Aura Decore. Resolve problemas, fideliza clientes e protege a repu
 - Escala para: [[GUARD]] (reembolso > R$200), [[THEO]] (problema técnico), [[SOL]] (oportunidade upsell)
 - Passa UGC para: [[NOX]] (conteúdo), [[ZARA]] (community)
 - Canal: WhatsApp Z-API (WF03)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/LENA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/LENA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/LENA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/LENA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "lena" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "lena" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

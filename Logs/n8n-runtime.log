@@ -115,4 +115,22 @@ Activated workflow "12 · Canva+Figma → Shopify Sync" (ID: 12)
 
 Editor is now accessible via:
 http://localhost:5678
-^C
+^C[21/06/2026 15:02:03,45] Iniciando n8n local (porta 5678)...
+Acesse: http://localhost:5678
+Login: aura / AuraDecoreN8n2026!
+
+Initializing n8n process
+n8n ready on ::, port 5678
+n8n Task Broker ready on 127.0.0.1, port 5679
+Failed to start Python task runner in internal mode. because its virtual environment is missing from this system. Launching a Python runner in internal mode is intended only for debugging and is not recommended for production. Users are encouraged to deploy in external mode. See: https://docs.n8n.io/hosting/configuration/task-runners/#setting-up-external-mode
+[license SDK] Skipping renewal on init: license cert is not initialized
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection timed out

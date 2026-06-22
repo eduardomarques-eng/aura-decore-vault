@@ -44,3 +44,49 @@ Posts a publicar: 2
 
 Esta execução: 1 publicados, 1 erros
 [21/06/2026 12:05:14,81] Publisher finalizado. 
+[21/06/2026 19:05:02,42] Iniciando publisher... 
+[2026-06-21T22:05:04.312Z] Publisher iniciado
+Janela: 2026-06-21T20:35:04.312Z → 2026-06-21T22:10:04.312Z
+Posts a publicar: 2
+
+[FB] 21/06/2026, 18:00:00 — Sexta-feira é dia de se presentear. 🎁 Que tal com...
+  ✅ Post publicado — ID: 1111100822090245_122108408217338235
+usage: fb_pessoal_chrome_post.py [-h] [--caption CAPTION]
+                                 [--image-url IMAGE_URL]
+                                 [--image-path IMAGE_PATH]
+                                 [--post-date POST_DATE] [--dry-run]
+                                 [--no-publish]
+fb_pessoal_chrome_post.py: error: unrecognized arguments: --url https://cdn.shopify.com/s/files/1/0685/7064/4585/files/0001-2447085992274919075_4029cb90-464a-469e-a016-815db12e6d10.png
+  ⚠️  FB Pessoal: FB_PESSOAL_PAGE_ID não configurado. Defina a variável de ambiente.
+
+[IG] 21/06/2026, 18:00:00 — Sexta-feira é dia de se presentear. 🎁 Que tal com...
+  ❌ Erro: container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 18
+  PUBLISHED: 24
+  ERROR: 14
+
+Esta execução: 1 publicados, 1 erros
+[21/06/2026 19:05:13,80] Publisher finalizado. 
+[21/06/2026 21:05:02,79] Iniciando publisher... 
+[2026-06-22T00:05:04.643Z] Publisher iniciado
+Janela: 2026-06-21T22:35:04.643Z → 2026-06-22T00:10:04.643Z
+Posts a publicar: 2
+
+[IG] 21/06/2026, 21:00:00 — Fim de semana chegando 🙌 Como você vai transforma...
+  📸 Publicando como IG Story...
+  ❌ Erro: story_container_fail: {"error":{"message":"Unsupported post request. Object with ID '17841442799060573' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph
+
+[FB] 21/06/2026, 21:00:00 — Fim de semana chegando 🙌 Como você vai transforma...
+  📸 Publicando como FB Story...
+  ⚠️ FB photo_stories falhou ({"error":{"message":"An unknown error has occurred.","type":"OAuthException","code":1,"fbtrace_id":"), postando no feed...
+  ✅ Story publicado — ID: 1111100822090245_122108414913338235
+
+=== RESUMO SEMANA 25 ===
+  QUEUE: 16
+  PUBLISHED: 25
+  ERROR: 15
+
+Esta execução: 1 publicados, 1 erros
+[21/06/2026 21:05:11,51] Publisher finalizado. 

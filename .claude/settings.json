@@ -1,0 +1,62 @@
+{
+  "project": {
+    "name": "Aura Decore",
+    "type": "ecommerce-japandi-lowticket",
+    "url": "auradecore.com.br",
+    "language": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "owner": "Eduardo"
+  },
+  "vault": {
+    "path": "C:\\Users\\erick\\AURA-decor-vault",
+    "legacy_forbidden": "OneDrive\\Documentos\\Obsidian Vault"
+  },
+  "loopEngineering": {
+    "cycleStart": "monday 09:00",
+    "kaizenAudit": "monday 10:00",
+    "auditor": "ECHO",
+    "minImprovementsPerCycle": 1
+  },
+  "content": {
+    "language": "pt-BR",
+    "publisher": "Eduardo",
+    "postsPerDay": 2,
+    "channels": ["instagram", "facebook", "pinterest", "tiktok", "stories"],
+    "captionStyle": "alternar-profissional-humanizado",
+    "hashtagsRange": [8, 12],
+    "alwaysIncludeMusic": true,
+    "ctaRequired": true,
+    "ctaUrl": "auradecore.com.br"
+  },
+  "images": {
+    "engine": "pollinations.ai",
+    "maxConcurrentRequests": 1,
+    "sleepBetweenRequestsSec": 8,
+    "script": "aura-pollinations-image.mjs",
+    "style": "japandi-neutral-wood-linen"
+  },
+  "n8n": {
+    "host": "20.246.5.1:5678",
+    "exec": "docker exec aura-n8n",
+    "putAllowedFields": ["name", "nodes", "connections", "settings"]
+  },
+  "security": {
+    "tokenExpiry": {
+      "FB_PAGE_TOKEN": "permanent",
+      "IG_TOKEN": "2026-08",
+      "renewAlertDaysBefore": 30
+    },
+    "secretsLocation": "azure-key-vault | server .env",
+    "auditor": "GUARD"
+  },
+  "agents": {
+    "maxConcurrent": 3,
+    "registry": "agents/",
+    "roster": ["ive", "lena", "luna", "vera", "vega", "nox", "rex", "mira", "otto", "echo", "guard"]
+  },
+  "tokenOptimization": {
+    "preferReferences": true,
+    "loadOnlyRelevant": true,
+    "sessionSummaryToVault": true
+  }
+}

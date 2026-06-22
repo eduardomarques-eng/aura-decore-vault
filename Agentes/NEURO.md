@@ -38,3 +38,30 @@ O **NEURO** é o estrategista de copy mais sofisticado da equipe Aura Decore. Su
 - **SOL (Conversão/CRO):** SOL define a oferta comercial ideal (descontos, kits) e NEURO a veste com a melhor roupagem psicológica.
 - **LENA (CX/Atendimento):** Suporta o roteamento de mensagens inbound complexas sobre estilo de vida ou dores decorativas.
 - **PROMO (Disparos):** Fornece o conteúdo textual refinado para as sequências de automação disparadas no WhatsApp/Email.
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/NEURO/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/NEURO/diario|Diário de Atividades]]
+- 🧠 [[Agentes/NEURO/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/NEURO/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "neuro" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "neuro" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

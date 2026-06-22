@@ -65,3 +65,30 @@ CFO severo e protetor da Aura Decore. Monitora todos os limites financeiros crí
 - MEI → ME Compliance Tracker (calendário obrigatório)
 - Cash Flow Management (previsão semanal)
 - Subscription Cost Optimizer (ROI por ferramenta)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/GUARD/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/GUARD/diario|Diário de Atividades]]
+- 🧠 [[Agentes/GUARD/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/GUARD/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "guard" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "guard" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

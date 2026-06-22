@@ -186,3 +186,30 @@ Quando IVE + GUARD aprovarem (ordem de prioridade):
 | Custo fixo / faturamento | < 15% |
 | Relatório mensal no prazo | dia 28 |
 | Tempo aprovação → pagamento | < 2h após Eduardo confirmar |
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/FINA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/FINA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/FINA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/FINA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "fina" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "fina" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

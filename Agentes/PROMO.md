@@ -35,3 +35,30 @@ O **PROMO** é o arquiteto e controlador de disparos promocionais e sequências 
 - Taxa de Abertura / Entrega (WhatsApp): **> 60%**
 - Conversão pós-disparo: **> 5%**
 - Taxa de Opt-out (Cancelamento): **< 2%**
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/PROMO/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/PROMO/diario|Diário de Atividades]]
+- 🧠 [[Agentes/PROMO/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/PROMO/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "promo" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "promo" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

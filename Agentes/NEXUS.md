@@ -108,3 +108,30 @@ minimalist wall art, wooden tray organizer, stone coaster set
 - Ansoff Growth Matrix (4 quadrantes aplicados à AURA)
 - AliExpress Product Mining (keywords, filtros, análise fornecedor)
 - Image Pipeline (clonagem URLs → prompt ARTE → aprovação LUNA)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/NEXUS/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/NEXUS/diario|Diário de Atividades]]
+- 🧠 [[Agentes/NEXUS/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/NEXUS/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "nexus" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "nexus" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

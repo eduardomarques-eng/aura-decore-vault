@@ -64,3 +64,30 @@
 - CLS: 0.08 (✅)
 - FID: 90ms (✅)
 - Gargalo: imagens sem WebP em 3 páginas de produto
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/THEO/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/THEO/diario|Diário de Atividades]]
+- 🧠 [[Agentes/THEO/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/THEO/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "theo" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "theo" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

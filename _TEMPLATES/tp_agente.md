@@ -98,6 +98,31 @@ updated: <% tp.date.now("YYYY-MM-DD") %>
 
 ---
 
+## 📂 Memória e Conexões
+- 👤 [[Agentes/<% tp.file.title %>/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/<% tp.file.title %>/diario|Diário de Atividades]]
+- 🧠 [[Agentes/<% tp.file.title %>/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/<% tp.file.title %>/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = lower("<% tp.file.title %>") AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = lower("<% tp.file.title %>") AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```
+
 ## 📈 Histórico de Execuções Recentes
 
 ```dataview
@@ -111,6 +136,7 @@ WHERE contains(agente, this.nome)
 SORT date DESC
 LIMIT 10
 ```
+
 
 ---
 

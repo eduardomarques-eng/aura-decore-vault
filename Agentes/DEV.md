@@ -131,3 +131,30 @@ SHOPIFY_STAGING_THEME_ID=            # vazio — staging antigo (160138428521) f
 - Announcement bar é o elemento de maior impacto visual imediato
 - Sprint semanal: 1 melhoria de conversão + atualização de copy
 - Sprint mensal (dia 1): troca completa de paleta sazonal
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/DEV/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/DEV/diario|Diário de Atividades]]
+- 🧠 [[Agentes/DEV/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/DEV/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "dev" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "dev" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

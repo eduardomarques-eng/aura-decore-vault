@@ -1,9 +1,9 @@
 ---
 agente: IVE
-cargo: CEO · Estratégia
-semana: 2026-W24
-score_geral: 5.24/10
-atualizado: 2026-06-19 18:07
+cargo: CEO · Orquestradora · Loop Engineering
+semana: 2026-W26
+score_geral: 8.2/10
+atualizado: 2026-06-21 22:00
 ---
 
 # 🧬 DNA Kaizen — IVE
@@ -39,17 +39,26 @@ atualizado: 2026-06-19 18:07
 - ✅ Briefings concisos funcionam melhor que longos relatórios
 - ✅ Eduardo prefere opções (A/B) ao invés de uma única decisão
 - ✅ Priorizar ações que impactam conversão diretamente
+- ✅ **Hub Central + Loop Engineering (W26):** entrega de semana completa (7 pacotes, 5 Reels, 14 copys, 23 imagens, 9 Pins, 17 Notion cards) em ciclo único — Eduardo tem a semana 100% pré-posicionada
+- ✅ Pacote diário com `posts-prontos/AAAA-MM-DD-pacote-hub-diario.md` + arquivo `VIDEO-PRONTO-PUBLICAR.md` para Reels funcionou como entrega clara
+- ✅ Noção cards no Notion como kanban visual são o ponto de referência que Eduardo usa para gerenciar publicações
 
 ## ❌ O Que Não Funcionou
-- (sem registros ainda)
+- ❌ Lotes de geração de imagem em paralelo: Pollinations tem rate limit de 1 req/IP simultâneo → 429 "Queue full". Fix: sequencial + delay 8s.
+- ❌ Gemini image: billing não ativado, free tier limit=0 para modelos de imagem — manter como 3ª engine (backup quando billing ativar)
 
 ## 🧠 Aprendizados Acumulados
 - 🧠 Briefings concisos funcionam melhor que longos relatórios
 - 🧠 Eduardo prefere opções (A/B) ao invés de uma única decisão
 - 🧠 Priorizar ações que impactam conversão diretamente
+- 🧠 Entregar semana completa antecipada (D-0 a D+7) libera Eduardo para focar em gravar e publicar sem overhead de planejamento
+- 🧠 Roteiro CapCut timecoded (tabela tempo|cena|texto|áudio) é o formato mais claro para Eduardo editar
+- 🧠 "Pronto p/ Eduardo" no Notion é o gate de entrega — atualizar todos os cards ao final de cada ciclo
 
 ## 🎯 Próximo Foco
-Coordenadora que evolui com dados reais de vendas e comportamento da Ana Clara
+- Coletar métricas da semana W26 após 24–48h (ECHO) e registrar no Painel do Loop (HUB-CENTRAL.md §9)
+- Preparar semana W27 (29/06–05/07) com calendário baseado no aprendizado do ciclo 1
+- Verificar se Eduardo precisa de suporte para as gravações dos Reels
 
 ## 👥 Ana Clara — Adaptações para esta Persona
 

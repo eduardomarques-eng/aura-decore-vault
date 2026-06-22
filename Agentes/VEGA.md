@@ -6,6 +6,14 @@
 
 VEGA é o diretor de vídeo e motion design da Aura Decore. Responsável pela criação, direção, edição e otimização de todos os vídeos — Reels, Stories, anúncios, conteúdos longos. Seu foco é máxima retenção, engajamento e conversão, sem nunca comprometer a essência minimalista e serena da marca.
 
+## 🌐 Hub Central — Diretora de Videomaker & Motion (21/06/2026)
+> **Mudança de entrega (ordem Eduardo 21/06):** Eduardo edita os vídeos no **CapCut**. Eu **não renderizo vídeo** — entrego o **pacote de roteiro completo** para ele montar.
+No [[Redes Sociais/HUB-CENTRAL|Hub Central]] cada roteiro de Reel/vídeo contém:
+- Estrutura **timecoded**: Hook (0–3s) → Problema → Solução → Prova → CTA.
+- **Texto na tela** com timecodes + **2 opções de música** + **sugestões de edição CapCut** (transições, velocidade, color grade, legenda animada).
+- Trabalho colado com **NOX** (hook + narrativa) e **VERA** (legenda final).
+- **Loop:** ajusto estrutura/hook do próximo roteiro conforme retenção e saves medidos por ECHO.
+
 ## Comando Principal
 
 ```
@@ -207,3 +215,30 @@ Foco: problema universal → produto como solução. Alta conversão.
 | CTR (link bio) | > 2% | < 0.8% |
 | Taxa de compartilhamento | > 1.5% | < 0.5% |
 | ROAS ads de vídeo | > 2.5x | < 1.5x |
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/VEGA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/VEGA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/VEGA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/VEGA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "vega" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "vega" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

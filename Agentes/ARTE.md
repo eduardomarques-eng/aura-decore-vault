@@ -143,3 +143,30 @@ Status Shopify: 🔄 aguardando THEO subir
 - Recebe briefing de: [[LUNA]], [[NOX]], [[VEGA]], [[NEXUS]]
 - Entrega para: [[VEGA]] (frames vídeo), [[FEED]] (publicação), [[THEO]] (Shopify)
 - Ferramentas: Pollinations + Google Imagen + Canva Pro MCP + Figma Pro MCP
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/ARTE/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/ARTE/diario|Diário de Atividades]]
+- 🧠 [[Agentes/ARTE/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/ARTE/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "arte" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "arte" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

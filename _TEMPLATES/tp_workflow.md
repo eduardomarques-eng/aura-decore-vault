@@ -133,6 +133,16 @@ graph TD
 ---
 
 ## 🔗 Relacionados
-- Agente: [[]]
+- Agente: [[Agentes/<% tp.file.title %>]]
 - Crew: [[]]
 - Dependency: [[]]
+
+## 📋 Tarefas Executadas (Dataview)
+```dataview
+TABLE status AS "Status", completed_at AS "Concluído", provider AS "LLM Provider"
+FROM "Tarefas"
+WHERE contains(tags, this.workflow_id) OR contains(file.name, this.workflow_id)
+SORT created_at DESC
+LIMIT 10
+```
+

@@ -1,5 +1,5 @@
 # Memory Index — Aura Decore
-> Ultima sincronizacao: 2026-06-21 12:05 | Semana 25/2026
+> Ultima sincronizacao: 2026-06-21 15:38 | Semana 25/2026
 
 ## Status do Sistema (2026-06-21)
 - Backend FastAPI: ONLINE porta 8000 — 20 agentes ativos

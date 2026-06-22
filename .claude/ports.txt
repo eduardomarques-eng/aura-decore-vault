@@ -1,0 +1,28 @@
+# ports.txt — Portas, Serviços e Referência de Credenciais (Aura Decore)
+# ⚠️ ARQUIVO DE REFERÊNCIA — NÃO ARMAZENAR SEGREDOS EM TEXTO PLANO AQUI
+# Segredos reais ficam no gerenciador de segredos / .env do servidor / Azure Key Vault
+# Este arquivo lista APENAS portas, nomes de variáveis e onde encontrar cada credencial.
+
+[PORTAS DE SERVICOS]
+n8n               = 5678   (Azure VM 20.246.5.1)
+Postiz            = 3000   (social.auradecore.com.br)
+Backend API       = 8000   (20.246.5.1)
+PostgreSQL        = 5432   (interno docker)
+Redis             = 6379   (interno docker)
+
+[REFERENCIA DE CREDENCIAIS — ONDE ESTAO]
+SHOPIFY_ACCESS_TOKEN     -> Azure Key Vault / .env servidor
+FB_PAGE_TOKEN            -> permanente | gerenciador de segredos
+IG_TOKEN                 -> valido ate 08/2026 | gerenciador de segredos
+META_APP_SECRET          -> gerenciador de segredos
+N8N_BASIC_AUTH           -> .env docker aura-n8n
+POLLINATIONS             -> sem chave (API publica gratuita)
+TIKTOK_OAUTH             -> PENDENTE (nao configurado)
+
+[ALERTAS DE EXPIRACAO]
+IG_TOKEN     -> expira 08/2026 | renovar ate 07/2026 (30 dias antes)
+FB_PAGE_TOKEN-> permanente (sem expiracao)
+
+[RESPONSAVEL]
+GUARD (agente de seguranca) audita este arquivo semanalmente.
+Eduardo: unico com acesso aos segredos reais.

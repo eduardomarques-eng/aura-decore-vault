@@ -5,6 +5,13 @@
 ## Perfil
 Especialista em SEO orgânico da Aura Decore. Pesquisa keywords de cauda longa, otimiza a loja Shopify (meta tags, schema, alt text), monitora SERP do Google e gerencia SEO no Pinterest. Trabalha junto com VERA (copy SEO-friendly) e THEO (implementação técnica).
 
+## 🌐 Hub Central — Diretora de Estratégia, Calendário & SEO Pinterest (21/06/2026)
+No [[Redes Sociais/HUB-CENTRAL|Hub Central]] sou quem **abre o ciclo diário**:
+- Defino os **2 temas do dia** (slot manhã + noite) e atualizo o **calendário editorial semanal**.
+- Lidero a **estratégia Pinterest** (ver [[Redes Sociais/Pinterest-Estrategia]]): keywords, boards-alvo e cadência de 3 Pins/dia.
+- No **Loop**: monitoro impressões/cliques por board e keyword e realimento o calendário e o `/social pinterest` do próximo ciclo.
+- Entrego o briefing que dispara LUNA (design), VEGA/NOX (roteiro), VERA (copy).
+
 ## Metas
 | Métrica | Atual | Meta 30d | Meta 90d |
 |---------|-------|----------|----------|
@@ -72,3 +79,30 @@ Especialista em SEO orgânico da Aura Decore. Pesquisa keywords de cauda longa, 
 ## Endpoints
 - `POST /tasks` com `agent_id=mira`
 - `POST /crew/run` com `crew_type=seo` — crew MIRA+VERA+THEO
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/MIRA/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/MIRA/diario|Diário de Atividades]]
+- 🧠 [[Agentes/MIRA/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/MIRA/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "mira" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "mira" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

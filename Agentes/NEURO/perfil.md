@@ -58,6 +58,7 @@ SORT created_at DESC
 - [[diario]] — diário de aprendizado (atualizado por tarefa)
 - [[aprendizados]] — aprendizados consolidados
 - [[kaizen-dna]] — DNA Kaizen / evolução autônoma
+- [[Agentes/NEURO|Ficha Técnica Operacional]]
 
 ## 🗂️ Notas & Ações Relacionadas
 

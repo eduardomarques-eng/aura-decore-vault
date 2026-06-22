@@ -170,3 +170,30 @@ Após publicar, FEED registra o ID no vault para ZARA monitorar DMs e comentári
 - Recebe de: [[NOX]] (calendário), [[VERA]] (copy), [[ARTE]] (criativos), [[VEGA]] (vídeos)
 - Entrega para: [[ZARA]] (IDs para monitoramento), [[ECHO]] (métricas publicação)
 - Usa: Graph API v19.0 + Chrome MCP (perfil pessoal)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/FEED/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/FEED/diario|Diário de Atividades]]
+- 🧠 [[Agentes/FEED/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/FEED/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "feed" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "feed" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

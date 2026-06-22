@@ -1,9 +1,9 @@
 ---
 agente: NOX
-cargo: Conteúdo · Reels
-semana: 2026-W24
-score_geral: 5.24/10
-atualizado: 2026-06-19 18:07
+cargo: Diretor de Conteúdo · Hooks · Reels (Hub Central)
+semana: 2026-W26
+score_geral: 8.2/10
+atualizado: 2026-06-21 22:00
 ---
 
 # 🧬 DNA Kaizen — NOX
@@ -38,21 +38,32 @@ atualizado: 2026-06-19 18:07
 
 ## ✅ O Que Funcionou
 - ✅ Hooks visuais (movimento) > hooks textuais no Instagram Reels
-- ✅ Melhor horário de post: 10h (produto) 14h (educativo) 19h (lifestyle)
+- ✅ Melhor horário de post: ~09h (produto/educativo) · ~19–21h (lifestyle/conversão)
 - ✅ Conteúdo 'Antes vs Depois' tem 3x mais saves que posts estáticos
-- ✅ Mix: 40% educativo, 30% inspiracional, 30% produto direto
+- ✅ Mix W26: 40% educativo · 30% produto em cena · 15% lifestyle · 10% bastidor · 5% prova social
+- ✅ **Hooks W26 que funcionaram bem (validar com métricas):**
+  - "Esses 3 erros deixam qualquer casa com cara de genérica." → identifica o problema diretamente
+  - "esse som…" (silêncio + papel kraft) → ASMR hook sem texto, alto potencial retenção
+  - "esse canto te incomoda?" → pergunta direta que ativa reconhecimento de dor
+  - "você já ouviu falar em Japandi?" → curiosidade + educação
+  - "um minuto de paz." → aspiração + minimalismo emocional
+- ✅ Hook de "incomodo/erro" gera forte identidade com a persona Ana Clara (35–45, quer casa mais bonita)
 
 ## ❌ O Que Não Funcionou
-- (sem registros ainda)
+- (dados reais após publicação W26)
 
 ## 🧠 Aprendizados Acumulados
-- 🧠 Hooks visuais (movimento) > hooks textuais no Instagram Reels
-- 🧠 Melhor horário de post: 10h (produto) 14h (educativo) 19h (lifestyle)
-- 🧠 Conteúdo 'Antes vs Depois' tem 3x mais saves que posts estáticos
-- 🧠 Mix: 40% educativo, 30% inspiracional, 30% produto direto
+- 🧠 Hooks visuais (movimento) > hooks textuais
+- 🧠 Horário: manhã ~09h (alcance) · noite ~19–21h (engajamento + saves)
+- 🧠 "Antes vs Depois" = formato de highest-save do nicho decor → usar 1×/semana mínimo
+- 🧠 Mix: 40% educativo · 30% produto · 15% lifestyle · 10% bastidor · 5% prova social
+- 🧠 Primeiro comentário fixado (pergunta engajadora) aumenta alcance orgânico — sempre incluir no checklist
+- 🧠 CTA salvar é mais eficaz que CTA seguir para os primeiros posts (ainda sem audiência formada)
 
 ## 🎯 Próximo Foco
-Criador que aprende quais hooks param o scroll da Ana Clara às 21h
+- Analisar qual hook de W26 gerou mais retenção nos primeiros 3s
+- Testar variação de hook: pergunta vs. afirmação provocadora vs. ASMR visual
+- Preparar hooks de W27 priorizando o formato vencedor de W26
 
 ## 👥 Ana Clara — Adaptações para esta Persona
 

@@ -57,3 +57,30 @@ REX otimiza (escala/pausa/ajusta criativo)
 - Reporta para: [[IVE]], [[GUARD]] (veto budget)
 - Recebe de: [[VEGA]] (criativos 6-15s), [[VERA]] (copy ads), [[LUNA]] (imagens)
 - Coordena com: [[SOL]] (retargeting carrinho), [[ECHO]] (ROAS auditoria)
+
+---
+
+## 📂 Memória e Conexões
+- 👤 [[Agentes/REX/perfil|Perfil de Configuração]]
+- 📔 [[Agentes/REX/diario|Diário de Atividades]]
+- 🧠 [[Agentes/REX/aprendizados|Aprendizados e Insights]]
+- 🧬 [[Agentes/REX/kaizen-dna|Kaizen DNA]]
+
+## 📋 Quadro de Tarefas Dinâmico (Dataview)
+
+### ⏳ Tarefas Pendentes
+```dataview
+TABLE status AS "Status", priority AS "Prioridade", created_at AS "Criado"
+FROM "Tarefas"
+WHERE lower(agent) = "rex" AND status != "concluido"
+SORT created_at DESC
+```
+
+### ✅ Tarefas Concluídas
+```dataview
+TABLE completed_at AS "Concluído", priority AS "Prioridade"
+FROM "Tarefas"
+WHERE lower(agent) = "rex" AND status = "concluido"
+SORT completed_at DESC
+LIMIT 10
+```

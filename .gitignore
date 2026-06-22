@@ -1,3 +1,21 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .trash/
+
+# Binarios e executaveis (nao versionar — ex: cloudflared.exe 52MB)
+*.exe
+*.dll
+
+# Bancos de dados locais / backups
+*.db
+*.sqlite
+Setup/Backups/
+
+# Dependencias
+node_modules/
+
+# Segredos (reforco — nunca versionar credenciais)
+.env
+.env.*
+*.key
+*.pem
