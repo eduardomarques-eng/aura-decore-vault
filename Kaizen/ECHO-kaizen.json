@@ -11,7 +11,7 @@
     "analise_dados": 6.0,
     "alinhamento_persona": 6.5
   },
-  "execucoes_semana": 2,
+  "execucoes_semana": 3,
   "taxa_sucesso": 0.0,
   "aprendizados_novos": [
     "Score 0-10 por agente: < 6 requer plano de melhoria imediato",
@@ -23,12 +23,13 @@
     "Não aceitar 'estamos melhorando' sem número que prove",
     "Kaizen: 1 melhoria específica por agente por semana (não 5 genéricas)",
     "Manutenção diária 2026-06-22 — score 7.5/10",
-    "Manutenção diária 2026-06-23 — score 7.5/10"
+    "Manutenção diária 2026-06-23 — score 7.5/10",
+    "Manutenção diária 2026-06-24 — score 7.5/10"
   ],
   "o_que_nao_funcionou": [],
   "metricas": {},
   "evolucao_vs_semana_anterior": 0.0,
   "proximo_foco": "",
   "ultima_atualizacao": "2026-06-21T16:44:50.668397",
-  "ultima_manutencao": "2026-06-23 11:00"
+  "ultima_manutencao": "2026-06-24 11:00"
 }
