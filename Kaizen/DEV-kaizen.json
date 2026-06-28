@@ -11,7 +11,7 @@
     "analise_dados": 6.0,
     "alinhamento_persona": 6.5
   },
-  "execucoes_semana": 6,
+  "execucoes_semana": 7,
   "taxa_sucesso": 0.0,
   "aprendizados_novos": [
     "Tema live: 160266387561 — SEMPRE backup antes de mexer",
@@ -27,12 +27,13 @@
     "Manutenção diária 2026-06-24 — score 7.5/10",
     "Manutenção diária 2026-06-25 — score 7.5/10",
     "Manutenção diária 2026-06-26 — score 7.5/10",
-    "Manutenção diária 2026-06-27 — score 7.5/10"
+    "Manutenção diária 2026-06-27 — score 7.5/10",
+    "Manutenção diária 2026-06-28 — score 7.5/10"
   ],
   "o_que_nao_funcionou": [],
   "metricas": {},
   "evolucao_vs_semana_anterior": 0.0,
   "proximo_foco": "",
   "ultima_atualizacao": "2026-06-21T16:44:50.670172",
-  "ultima_manutencao": "2026-06-27 11:01"
+  "ultima_manutencao": "2026-06-28 11:00"
 }
